@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+
+# Testing
+coverage/
+.nyc_output/
+
+# Next.js
+/.next/
+/out/
+.next/
+dist/
+
+# Production
+/build/
+/prod/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+*.c9/
+*.sublime-workspace
+*.tern-port
+
+# OS
+Thumbs.db
+.vscode-test
+.cache/
+.parcel-cache
+.web_packages/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# macOS
+.AppleDouble
+.AppleDB
+._*
+
+# Linux
+.directory
+
+# Windows
+$RECYCLE.BIN/
+ehthumbs.db
