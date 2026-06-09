@@ -157,7 +157,7 @@ export default function Hero() {
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="https://wa.me/8801879388418"
+            href="https://wa.me/8801570205739"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-7 py-3.5 rounded-xl border border-white/20 text-white font-semibold hover:bg-white/5 transition-all duration-200 backdrop-blur-sm"

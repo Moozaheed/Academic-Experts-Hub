@@ -16,74 +16,7 @@ interface Testimonial {
   color: string;
 }
 
-const testimonials: Testimonial[] = [
-  {
-    id: 1,
-    quote:
-      "Exceptional thesis support. My dissertation on organizational behavior was completed on time with outstanding quality. The structural guidance and academic writing assistance made a significant difference in my final grade.",
-    name: "Sarah Mitchell",
-    country: "United Kingdom",
-    degree: "PhD Student, Management",
-    service: "Thesis & Dissertation Writing",
-    initials: "SM",
-    color: "from-blue-500 to-indigo-600",
-  },
-  {
-    id: 2,
-    quote:
-      "The data analysis help was incredible. They guided me through the entire SPSS workflow for my quantitative research and I got an A+ on my research project. Highly professional and knowledgeable.",
-    name: "Ahmed Al-Khalidi",
-    country: "United Arab Emirates",
-    degree: "MSc Student, Finance",
-    service: "Data Analysis",
-    initials: "AK",
-    color: "from-purple-500 to-violet-600",
-  },
-  {
-    id: 3,
-    quote:
-      "Professional service throughout my MBA dissertation. The literature review they helped me structure was genuinely impressive — comprehensive, well-synthesized, and academically rigorous. Highly recommend for any business research.",
-    name: "Priya Ramaswamy",
-    country: "India",
-    degree: "MBA Student",
-    service: "Literature Review",
-    initials: "PR",
-    color: "from-rose-500 to-pink-600",
-  },
-  {
-    id: 4,
-    quote:
-      "I was struggling with my research methodology chapter for months. The team explained quantitative research design clearly and helped me build a solid, defensible methodology. My supervisor was very pleased.",
-    name: "James O'Connor",
-    country: "Australia",
-    degree: "MSc Student, Psychology",
-    service: "Research Methodology",
-    initials: "JO",
-    color: "from-emerald-500 to-teal-600",
-  },
-  {
-    id: 5,
-    quote:
-      "Outstanding software engineering project support. They helped me design and implement a full-stack machine learning application for my final year project. Clean code, proper documentation, and exactly what I needed.",
-    name: "Liu Wei",
-    country: "Canada",
-    degree: "BSc Computer Science",
-    service: "Software Engineering",
-    initials: "LW",
-    color: "from-cyan-500 to-sky-600",
-  },
-  {
-    id: 6,
-    quote:
-      "Fast, reliable, and academically excellent. I needed help with a complex case study for my strategic management module and the quality of analysis delivered exceeded my expectations. Will use again.",
-    name: "Fatima Al-Hassan",
-    country: "Saudi Arabia",
-    degree: "MBA Student",
-    service: "Academic Writing",
-    initials: "FH",
-    color: "from-orange-500 to-amber-600",
-  },
-];
+const testimonials: Testimonial[] = [];
 
 function StarRating({ count = 5 }: { count?: number }) {
   return (
@@ -136,6 +69,11 @@ export default function Testimonials() {
   };
 
   const current = testimonials[currentIndex];
+
+  // If no testimonials, return null to hide section
+  if (testimonials.length === 0) {
+    return null;
+  }
 
   return (
     <section className="section-padding bg-slate-50">

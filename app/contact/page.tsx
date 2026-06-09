@@ -83,12 +83,12 @@ export default function ContactPage() {
                 Primary and preferred contact channel
               </p>
               <a
-                href="https://wa.me/8801879388418"
+                href="https://wa.me/8801570205739"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-600 font-semibold text-sm hover:underline"
               >
-                +880 1879 388 418
+                +880 1570 205 739
               </a>
             </div>
 

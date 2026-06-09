@@ -183,7 +183,7 @@ export default function AboutPage() {
                   and get a personal response from our team.
                 </p>
                 <a
-                  href="https://wa.me/8801879388418"
+                  href="https://wa.me/8801570205739"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 mt-4 text-indigo-600 font-semibold text-sm"

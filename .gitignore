@@ -71,3 +71,7 @@ temp/
 # Windows
 $RECYCLE.BIN/
 ehthumbs.db
+
+# Local Netlify folder
+.netlify
+.vercel

@@ -15,7 +15,7 @@ export function formatDate(dateString: string): string {
 }
 
 export function buildWhatsAppUrl(message?: string): string {
-  const base = "https://wa.me/8801879388418";
+  const base = "https://wa.me/8801570205739";
   if (!message) return base;
   return `${base}?text=${encodeURIComponent(message)}`;
 }

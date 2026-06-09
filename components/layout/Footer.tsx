@@ -40,7 +40,7 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-3">
               <a
-                href="https://wa.me/8801879388418"
+                href="https://wa.me/8801570205739"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors group"
@@ -48,7 +48,7 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-green-500/10 border border-green-500/20 flex items-center justify-center group-hover:bg-green-500/20 transition-colors">
                   <MessageCircle className="w-4 h-4 text-green-400" />
                 </div>
-                <span>+880 1879 388 418</span>
+                <span>+880 1570 205 739</span>
               </a>
               <div className="flex items-center gap-2 text-sm text-slate-400">
                 <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center">
@@ -100,7 +100,7 @@ export default function Footer() {
               Ready to achieve academic excellence? Reach out via WhatsApp for a free consultation.
             </p>
             <a
-              href="https://wa.me/8801879388418?text=Hi%2C%20I%20need%20academic%20support."
+              href="https://wa.me/8801570205739?text=Hi%2C%20I%20need%20academic%20support."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-sm font-semibold hover:opacity-90 transition-opacity"
