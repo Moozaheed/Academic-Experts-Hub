@@ -12,16 +12,16 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 import { faqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Contact | Academic Experts Hub",
+  title: "Get Thesis & Dissertation Help Now | Contact Academic Experts Hub",
   description:
-    "Get in touch with Academic Experts Hub for academic consulting, thesis help, research support, and software engineering projects. Contact us via WhatsApp for a fast response.",
+    "Need thesis writing or dissertation help? Contact Academic Experts Hub via WhatsApp for fast, expert academic support — research methodology, data analysis & more. Worldwide service.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact | Academic Experts Hub",
+    title: "Get Thesis & Dissertation Help Now | Contact Academic Experts Hub",
     description:
-      "Get in touch with Academic Experts Hub for academic consulting, thesis help, research support, and software engineering projects. Contact us via WhatsApp for a fast response.",
+      "Need thesis writing or dissertation help? Contact Academic Experts Hub via WhatsApp for fast, expert academic support — research methodology, data analysis & more. Worldwide service.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {

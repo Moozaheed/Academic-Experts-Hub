@@ -9,9 +9,9 @@ import CTASection from "@/components/home/CTASection";
 import ContactForm from "@/components/home/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Academic Experts Hub | Professional Academic Consulting",
+  title: "Thesis & Dissertation Help for International Students | Academic Experts Hub",
   description:
-    "Expert guidance for dissertations, thesis, research projects, and academic assignments — delivered by industry professionals with real-world software engineering and consulting experience.",
+    "Get expert thesis writing, dissertation help, research methodology, and data analysis support — delivered by professionals with real engineering & consulting experience. Worldwide, WhatsApp-fast.",
 };
 
 export default function HomePage() {

@@ -16,16 +16,16 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 import { servicesJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Services | Academic Experts Hub",
+  title: "Thesis, Dissertation & Research Help Services | Academic Experts Hub",
   description:
-    "Comprehensive academic consulting services including thesis writing, dissertation help, research methodology, data analysis, literature review, academic writing, software engineering projects, and research publication support.",
+    "Expert academic consulting: thesis writing, dissertation help, research methodology, data analysis, literature review, software engineering projects & research publication support. Available worldwide.",
   alternates: {
     canonical: "/services",
   },
   openGraph: {
-    title: "Services | Academic Experts Hub",
+    title: "Thesis, Dissertation & Research Help Services | Academic Experts Hub",
     description:
-      "Comprehensive academic consulting services including thesis writing, dissertation help, research methodology, data analysis, literature review, and software engineering project support.",
+      "Expert academic consulting: thesis writing, dissertation help, research methodology, data analysis, literature review, software engineering projects & research publication support.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
@@ -257,7 +257,7 @@ export default function ServicesPage() {
             <span className="text-white/80 text-sm font-medium">What We Deliver</span>
           </div>
           <h1 className="font-heading text-4xl md:text-6xl font-bold text-white mb-5">
-            Our <span className="gradient-text">Services</span>
+            Expert Academic <span className="gradient-text">Consulting Services</span>
           </h1>
           <p className="text-slate-300 text-xl leading-relaxed max-w-2xl mx-auto">
             Professional academic support across all disciplines, from thesis writing and

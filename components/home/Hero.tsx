@@ -125,7 +125,7 @@ export default function Hero() {
           variants={itemVariants}
           className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6"
         >
-          Academic Excellence,
+          Expert Thesis &amp; Dissertation Help,
           <br />
           <span className="gradient-text">Professionally Delivered</span>
         </motion.h1>
