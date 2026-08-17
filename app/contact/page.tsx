@@ -18,6 +18,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/contact",
   },
+  openGraph: {
+    title: "Contact | Academic Experts Hub",
+    description:
+      "Get in touch with Academic Experts Hub for academic consulting, thesis help, research support, and software engineering projects. Contact us via WhatsApp for a fast response.",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
+  },
 };
 
 const contactFaqs = [

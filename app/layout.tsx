@@ -42,12 +42,24 @@ export const metadata: Metadata = {
     title: "Academic Experts Hub | Professional Academic Consulting",
     description:
       "Expert guidance for dissertations, thesis, research projects, and academic assignments — delivered by industry professionals.",
+    images: [
+      {
+        url: `${SITE_URL}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: "Academic Experts Hub — Professional Academic Consulting",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Academic Experts Hub | Professional Academic Consulting",
     description:
       "Expert guidance for dissertations, thesis, research projects, and academic assignments — delivered by industry professionals.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  verification: {
+    google: "baRVOLiPV4thExBm3LCJVHB3JGhU2n9_e5JFk9z6L20",
   },
   robots: {
     index: true,

@@ -22,6 +22,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/services",
   },
+  openGraph: {
+    title: "Services | Academic Experts Hub",
+    description:
+      "Comprehensive academic consulting services including thesis writing, dissertation help, research methodology, data analysis, literature review, and software engineering project support.",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
+  },
 };
 
 const services = [

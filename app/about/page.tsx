@@ -24,6 +24,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/about",
   },
+  openGraph: {
+    title: "About Us | Academic Experts Hub",
+    description:
+      "Learn about Academic Experts Hub — built by a Software Engineer with 3+ years of professional experience to provide premium academic consulting for international students.",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
+  },
 };
 
 const values = [
