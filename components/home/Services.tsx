@@ -65,15 +65,15 @@ const services = [
   },
   {
     icon: FileText,
-    title: "Academic Writing",
+    title: "Assignment Help",
     description:
-      "Professional essays, reports, case studies, and assignments across all disciplines. Research-backed, properly cited, and delivered to your institution's standards.",
-    tags: ["Essays", "Reports", "Case Studies"],
+      "Online assignment help for essays, reports, case studies, coursework, and all academic assignments. Expert writers, properly cited, deadline-guaranteed across all disciplines.",
+    tags: ["Essay Help", "Coursework Help", "Case Studies"],
     color: "from-orange-500/10 to-amber-500/5",
     iconBg: "bg-orange-500/10",
     iconColor: "text-orange-500",
     borderColor: "border-orange-500/10",
-    href: "/services#academic-writing",
+    href: "/assignment-help",
   },
   {
     icon: Code2,

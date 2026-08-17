@@ -135,9 +135,8 @@ export default function Hero() {
           variants={itemVariants}
           className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10"
         >
-          Expert guidance for dissertations, thesis, research projects, and academic assignments
-          — delivered by industry professionals with real-world engineering and consulting
-          experience.
+          Expert assignment help, thesis writing, dissertation support, and research consulting
+          — delivered by industry professionals for international students worldwide.
         </motion.p>
 
         {/* CTAs */}

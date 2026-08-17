@@ -2,12 +2,12 @@ import Link from "next/link";
 import { GraduationCap, MessageCircle, Mail, MapPin, Phone } from "lucide-react";
 
 const serviceLinks = [
+  { label: "Assignment Help", href: "/assignment-help" },
   { label: "Thesis & Dissertation Writing", href: "/services#thesis" },
   { label: "Research Methodology", href: "/services#methodology" },
   { label: "Data Analysis", href: "/services#data-analysis" },
   { label: "Literature Review", href: "/services#literature" },
   { label: "Software Engineering Projects", href: "/services#software" },
-  { label: "Academic Writing", href: "/services#academic-writing" },
 ];
 
 const quickLinks = [

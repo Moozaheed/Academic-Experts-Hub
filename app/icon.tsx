@@ -13,15 +13,16 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          borderRadius: 7,
+          borderRadius: 8,
           background: "linear-gradient(135deg, #6366f1 0%, #9333ea 100%)",
           color: "white",
-          fontSize: 19,
-          fontWeight: 800,
+          fontSize: 14,
+          fontWeight: 900,
           fontFamily: "sans-serif",
+          letterSpacing: "-0.5px",
         }}
       >
-        A
+        AH
       </div>
     ),
     { ...size }
