@@ -4,7 +4,7 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Online Assignment Help for International Students | Academic Experts Hub",
+  title: "Online Assignment Help for International Students",
   description:
     "Get expert online assignment help for essays, coursework, case studies, reports & all subjects. Fast WhatsApp response, deadline-guaranteed, available worldwide. Do my assignment — done right.",
   alternates: {

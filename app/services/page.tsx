@@ -16,7 +16,7 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 import { servicesJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Thesis, Dissertation & Research Help Services | Academic Experts Hub",
+  title: "Thesis, Dissertation & Research Help Services",
   description:
     "Expert academic consulting: thesis writing, dissertation help, research methodology, data analysis, literature review, software engineering projects & research publication support. Available worldwide.",
   alternates: {

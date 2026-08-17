@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!post) return { title: "Post Not Found" };
 
   return {
-    title: `${post.title} | Academic Experts Hub Blog`,
+    title: { absolute: `${post.title} | Academic Experts Hub Blog` },
     description: post.excerpt,
     alternates: {
       canonical: `/blog/${post.slug}`,

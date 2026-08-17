@@ -18,7 +18,7 @@ import {
 import { buildWhatsAppUrl } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "About Academic Experts Hub | Professional Academic Consulting Worldwide",
+  title: "About Us — Professional Academic Consulting Worldwide",
   description:
     "Academic Experts Hub is built by a Software Engineer with 3+ years of experience helping international students with thesis writing, dissertations, research methodology, and data analysis.",
   alternates: {

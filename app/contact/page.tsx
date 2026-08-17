@@ -12,7 +12,7 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 import { faqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Get Thesis & Dissertation Help Now | Contact Academic Experts Hub",
+  title: "Get Thesis & Dissertation Help Now — Contact Us",
   description:
     "Need thesis writing or dissertation help? Contact Academic Experts Hub via WhatsApp for fast, expert academic support — research methodology, data analysis & more. Worldwide service.",
   alternates: {

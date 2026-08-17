@@ -9,7 +9,7 @@ import CTASection from "@/components/home/CTASection";
 import ContactForm from "@/components/home/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Assignment Help, Thesis & Dissertation Writing | Academic Experts Hub",
+  title: "Assignment Help, Thesis & Dissertation Writing",
   description:
     "Expert assignment help, thesis writing, dissertation support, research methodology & data analysis for international students. Fast WhatsApp response. Available worldwide.",
 };
