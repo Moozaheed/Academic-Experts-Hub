@@ -12,6 +12,7 @@ import {
 import { blogPosts, getBlogPost } from "@/lib/blog-data";
 import { formatDate, buildWhatsAppUrl } from "@/lib/utils";
 import BlogCard from "@/components/blog/BlogCard";
+import { blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -29,6 +30,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${post.title} | Academic Experts Hub Blog`,
     description: post.excerpt,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -65,6 +69,22 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingJsonLd(post)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbJsonLd([
+              { name: "Home", path: "/" },
+              { name: "Blog", path: "/blog" },
+              { name: post.title, path: `/blog/${post.slug}` },
+            ])
+          ),
+        }}
+      />
       {/* Article header */}
       <section className="relative pt-32 pb-14 px-4 overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900">
         <div

@@ -75,3 +75,5 @@ ehthumbs.db
 # Local Netlify folder
 .netlify
 .vercel
+academic-experts-hub-8afa3c211bda.json
+*.service-account.json

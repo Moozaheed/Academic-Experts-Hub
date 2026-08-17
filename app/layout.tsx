@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
+import { SITE_NAME, SITE_URL, organizationJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
@@ -10,49 +11,41 @@ export const metadata: Metadata = {
     template: "%s | Academic Experts Hub",
   },
   description:
-    "Expert academic consulting for international students. Professional help with thesis writing, dissertations, research methodology, data analysis, and software engineering projects.",
+    "Expert academic consulting for international students. Professional help with thesis writing, dissertation help, research methodology, data analysis, literature reviews, and software engineering projects.",
   keywords: [
     "academic consulting",
     "thesis writing help",
-    "dissertation support",
-    "research methodology",
+    "dissertation help",
+    "research methodology help",
     "data analysis help",
     "academic writing services",
-    "PhD support",
-    "MBA dissertation",
-    "software engineering projects",
-    "international students",
+    "PhD dissertation help",
+    "MBA dissertation help",
+    "literature review writing service",
+    "software engineering project help",
+    "international students academic support",
   ],
-  authors: [{ name: "G. M. Mozahed", url: "https://academicexpertshub.com" }],
-  creator: "Academic Experts Hub",
-  publisher: "Academic Experts Hub",
-  metadataBase: new URL("https://academicexpertshub.com"),
+  authors: [{ name: "G. M. Mozahed", url: SITE_URL }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://academicexpertshub.com",
-    siteName: "Academic Experts Hub",
+    url: SITE_URL,
+    siteName: SITE_NAME,
     title: "Academic Experts Hub | Professional Academic Consulting",
     description:
       "Expert guidance for dissertations, thesis, research projects, and academic assignments — delivered by industry professionals.",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Academic Experts Hub",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Academic Experts Hub | Professional Academic Consulting",
     description:
       "Expert guidance for dissertations, thesis, research projects, and academic assignments — delivered by industry professionals.",
-    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -64,11 +57,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
   },
 };
 
@@ -84,7 +72,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -93,7 +81,11 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen bg-white text-slate-900 antialiased">
+      <body className="min-h-screen bg-white text-slate-900 antialiased" suppressHydrationWarning>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd()) }}
+        />
         <Navbar />
         <main>{children}</main>
         <Footer />

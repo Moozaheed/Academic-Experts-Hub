@@ -9,11 +9,15 @@ import {
 } from "lucide-react";
 import ContactForm from "@/components/home/ContactForm";
 import { buildWhatsAppUrl } from "@/lib/utils";
+import { faqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Contact | Academic Experts Hub",
   description:
     "Get in touch with Academic Experts Hub for academic consulting, thesis help, research support, and software engineering projects. Contact us via WhatsApp for a fast response.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 const contactFaqs = [
@@ -46,6 +50,10 @@ const contactFaqs = [
 export default function ContactPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(contactFaqs)) }}
+      />
       {/* Hero */}
       <section className="relative pt-32 pb-20 px-4 overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900">
         <div
@@ -83,12 +91,12 @@ export default function ContactPage() {
                 Primary and preferred contact channel
               </p>
               <a
-                href="https://wa.me/8801570205739"
+                href="https://wa.me/966597879394"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-600 font-semibold text-sm hover:underline"
               >
-                +880 1570 205 739
+                +966 59 787 9394
               </a>
             </div>
 

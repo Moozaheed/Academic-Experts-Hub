@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "About Us | Academic Experts Hub",
   description:
     "Learn about Academic Experts Hub — built by a Software Engineer with 3+ years of professional experience to provide premium academic consulting for international students.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const values = [
@@ -183,7 +186,7 @@ export default function AboutPage() {
                   and get a personal response from our team.
                 </p>
                 <a
-                  href="https://wa.me/8801570205739"
+                  href="https://wa.me/966597879394"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 mt-4 text-indigo-600 font-semibold text-sm"

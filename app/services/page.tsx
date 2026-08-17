@@ -13,11 +13,15 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { buildWhatsAppUrl } from "@/lib/utils";
+import { servicesJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Services | Academic Experts Hub",
   description:
-    "Comprehensive academic consulting services including thesis writing, research methodology, data analysis, literature review, software engineering projects, and more.",
+    "Comprehensive academic consulting services including thesis writing, dissertation help, research methodology, data analysis, literature review, academic writing, software engineering projects, and research publication support.",
+  alternates: {
+    canonical: "/services",
+  },
 };
 
 const services = [
@@ -226,6 +230,10 @@ const services = [
 export default function ServicesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesJsonLd(services)) }}
+      />
       {/* Hero */}
       <section className="relative pt-32 pb-20 px-4 overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900">
         <div className="absolute inset-0 opacity-20"
