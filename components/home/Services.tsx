@@ -17,10 +17,10 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 const services = [
   {
     icon: BookOpen,
-    title: "Thesis & Dissertation Writing",
+    title: "Thesis & Dissertation Consulting",
     description:
-      "Comprehensive thesis support from proposal through final defense. We cover structure, argumentation, academic style, and examiner-focused presentation.",
-    tags: ["Proposal Writing", "Chapter Development", "Defense Preparation"],
+      "Comprehensive thesis and dissertation mentoring from proposal design through final defense. We cover structure, methodology review, academic style, and examiner-focused presentation.",
+    tags: ["Proposal Guidance", "Chapter Review", "Defense Preparation"],
     color: "from-blue-500/10 to-indigo-500/5",
     iconBg: "bg-blue-500/10",
     iconColor: "text-blue-500",
@@ -41,9 +41,9 @@ const services = [
   },
   {
     icon: BarChart3,
-    title: "Data Analysis",
+    title: "Data Analysis & Statistics",
     description:
-      "Rigorous statistical analysis using SPSS, R, and Python. From descriptive statistics and hypothesis testing to regression models and machine learning.",
+      "Rigorous statistical tutoring and analysis using SPSS, R, and Python. From descriptive statistics and hypothesis testing to regression models and machine learning interpretation.",
     tags: ["SPSS", "R", "Python", "Statistical Analysis"],
     color: "from-cyan-500/10 to-sky-500/5",
     iconBg: "bg-cyan-500/10",
@@ -53,10 +53,10 @@ const services = [
   },
   {
     icon: Search,
-    title: "Literature Review",
+    title: "Literature Review Mentoring",
     description:
-      "Comprehensive scholarly literature reviews that identify research gaps, synthesize existing knowledge, and position your work within the academic field.",
-    tags: ["Systematic Review", "Thematic Analysis", "Citation Management"],
+      "Scholarly literature review guidance to identify research gaps, synthesize existing knowledge, and position your research within the academic field.",
+    tags: ["Systematic Review", "Thematic Analysis", "Citation Guidance"],
     color: "from-emerald-500/10 to-teal-500/5",
     iconBg: "bg-emerald-500/10",
     iconColor: "text-emerald-500",
@@ -65,21 +65,21 @@ const services = [
   },
   {
     icon: FileText,
-    title: "Assignment Help",
+    title: "Academic Tutoring & Coaching",
     description:
-      "Online assignment help for essays, reports, case studies, coursework, and all academic assignments. Expert writers, properly cited, deadline-guaranteed across all disciplines.",
-    tags: ["Essay Help", "Coursework Help", "Case Studies"],
+      "1-on-1 academic coaching for coursework, case studies, and research projects. Expert mentoring with proper citation and critical analysis principles across all disciplines.",
+    tags: ["Coursework Coaching", "Case Studies", "Academic Writing Tutoring"],
     color: "from-orange-500/10 to-amber-500/5",
     iconBg: "bg-orange-500/10",
     iconColor: "text-orange-500",
     borderColor: "border-orange-500/10",
-    href: "/assignment-help",
+    href: "/services",
   },
   {
     icon: Code2,
     title: "Software Engineering Projects",
     description:
-      "Full-stack web applications, machine learning projects, and AI systems. Complete implementation from architecture to deployment for final year projects.",
+      "Full-stack web applications, machine learning projects, and AI systems. Architecture guidance, code review, and project mentoring for final year engineering students.",
     tags: ["Full-Stack", "Machine Learning", "AI Projects"],
     color: "from-indigo-500/10 to-blue-500/5",
     iconBg: "bg-indigo-500/10",
@@ -91,7 +91,7 @@ const services = [
     icon: Briefcase,
     title: "Business Studies",
     description:
-      "MBA dissertations, marketing analysis, financial modeling, and strategic business case studies. Industry-informed, practically relevant academic work.",
+      "MBA dissertations, marketing analysis frameworks, financial modeling tutoring, and strategic business case studies. Industry-informed, practically relevant academic coaching.",
     tags: ["MBA", "Marketing", "Finance"],
     color: "from-rose-500/10 to-pink-500/5",
     iconBg: "bg-rose-500/10",
@@ -103,7 +103,7 @@ const services = [
     icon: Award,
     title: "Research Publication Support",
     description:
-      "Guidance on preparing research for journal submission. From manuscript structuring and academic English editing to journal selection and reviewer response.",
+      "Guidance on preparing research for journal submission. From manuscript structuring and academic English proofreading to journal selection and reviewer responses.",
     tags: ["Journal Papers", "Academic English", "Peer Review"],
     color: "from-violet-500/10 to-purple-500/5",
     iconBg: "bg-violet-500/10",

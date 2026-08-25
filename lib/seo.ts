@@ -34,13 +34,13 @@ export function organizationJsonLd() {
       areaServed: "Worldwide",
     },
     knowsAbout: [
-      "Thesis Writing",
-      "Dissertation Writing",
+      "Thesis Consultation",
+      "Dissertation Mentoring",
       "Research Methodology",
       "Data Analysis",
       "Literature Review",
-      "Academic Writing",
-      "Assignment Help",
+      "Academic Proofreading",
+      "Academic Tutoring",
       "Software Engineering Projects",
       "Business Studies",
       "Research Publication Support",
@@ -72,7 +72,7 @@ export function webSiteJsonLd() {
     "@id": `${SITE_URL}/#website`,
     url: SITE_URL,
     name: SITE_NAME,
-    description: "Expert academic consulting: thesis writing, dissertation help, assignment help, research methodology, and data analysis for international students in Australia, USA, Canada, and worldwide.",
+    description: "Expert academic consulting: thesis consultation, dissertation mentoring, academic tutoring, research methodology, and data analysis for international students in Australia, USA, Canada, and worldwide.",
     publisher: { "@id": `${SITE_URL}/#organization` },
   };
 }

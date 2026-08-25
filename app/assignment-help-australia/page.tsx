@@ -17,64 +17,62 @@ import { faqJsonLd, breadcrumbJsonLd, absoluteUrl } from "@/lib/seo";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Assignment Help Australia | Expert Academic Support for Australian Students | Academic Experts Hub",
+      "Academic Tutoring & Consulting Australia | Expert Student Mentoring | Academic Experts Hub",
   },
   description:
-    "Top-rated online assignment help for Australian students. Essays, coursework, thesis, dissertation, research & data analysis — APA/Harvard referenced, deadline-guaranteed. WhatsApp-fast. All Australian universities covered.",
+    "Top-rated academic tutoring & consultation for Australian university students. Thesis mentoring, dissertation guidance, research methodology & SPSS data analysis. APA/Harvard referenced. WhatsApp-fast.",
   alternates: {
     canonical: "/assignment-help-australia",
   },
   keywords: [
-    "assignment help australia",
-    "online assignment help australia",
-    "university assignment help australia",
-    "do my assignment australia",
-    "essay help australia",
-    "thesis help australia",
-    "dissertation help australia",
-    "assignment writing service australia",
-    "academic help australia",
-    "homework help australia",
+    "academic tutoring australia",
+    "university tutoring australia",
+    "thesis consultation australia",
+    "dissertation mentoring australia",
+    "research methodology australia",
+    "data analysis tutoring australia",
+    "academic coaching australia",
+    "statistics tutoring australia",
   ],
   openGraph: {
-    title: "Assignment Help Australia | Expert Academic Support | Academic Experts Hub",
+    title: "Academic Tutoring & Consulting Australia | Academic Experts Hub",
     description:
-      "Expert online assignment help for Australian university students. All subjects, all levels, APA/Harvard referencing. WhatsApp-fast, deadline-guaranteed.",
+      "Expert academic tutoring and thesis consultation for Australian university students. All subjects, APA/Harvard referencing. WhatsApp-fast response.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Assignment Help Australia | Academic Experts Hub",
+    title: "Academic Tutoring & Consulting Australia | Academic Experts Hub",
     description:
-      "Top-rated assignment help for Australian students. Thesis, essays, coursework, data analysis — done by experts.",
+      "Top-rated academic tutoring for Australian students. Thesis, dissertation, research methodology & data analysis coaching.",
     images: ["/opengraph-image"],
   },
 };
 
 const faqs = [
   {
-    q: "Do you help students from Australian universities?",
+    q: "Do you tutor students from Australian universities?",
     a: "Yes. We work with students from all major Australian universities including the University of Melbourne, ANU, University of Sydney, Monash University, UNSW, UQ, UWA, QUT, RMIT, Deakin, La Trobe, and all other institutions across Australia.",
   },
   {
-    q: "Do you use APA and Harvard referencing as required by Australian universities?",
-    a: "Absolutely. We are experienced with APA 7th edition, Harvard referencing, and all other citation styles commonly required by Australian institutions. Just let us know your university's preferred style.",
+    q: "Do you provide guidance on APA and Harvard referencing?",
+    a: "Absolutely. We are experienced with APA 7th edition, Harvard referencing, and all other citation styles commonly required by Australian institutions. Just let us know your university's preferred format.",
   },
   {
-    q: "Can you meet tight Australian university deadlines?",
-    a: "Yes. We regularly handle urgent turnarounds for Australian students, including same-day and 24-hour assignments. Message us on WhatsApp immediately for urgent requests — we'll confirm availability within the hour.",
+    q: "Can you assist with urgent academic deadlines?",
+    a: "Yes. We regularly handle urgent schedules for Australian students. Message us on WhatsApp immediately for fast response — we'll confirm mentor availability within the hour.",
   },
   {
-    q: "Is your assignment help legal and confidential?",
-    a: "Our service is completely confidential. We provide academic guidance, model answers, and writing support — the same type of help you'd receive from a private tutor. All client information is treated with strict confidentiality.",
+    q: "Is your academic consulting legal and confidential?",
+    a: "Yes. We provide 1-on-1 academic tutoring, research coaching, and editing guidance — adhering to ethical educational standards. All consultations and student information are treated with strict confidentiality.",
   },
   {
-    q: "What types of assignments do you help with in Australia?",
-    a: "Essays, coursework, case studies, business reports, literature reviews, research projects, data analysis assignments, SPSS/Python tasks, IT and engineering assignments, and thesis or dissertation support — all disciplines, all levels from undergraduate to PhD.",
+    q: "What subject areas do you cover for Australian students?",
+    a: "Coursework coaching, business reports, case studies, literature reviews, research methodology, data analysis (SPSS, R, Python), engineering projects, and thesis or dissertation support — across undergraduate, Masters, and PhD levels.",
   },
   {
-    q: "How much does assignment help cost in Australia?",
-    a: "Pricing depends on the subject, length, complexity, and deadline. We offer competitive, transparent pricing with no hidden fees. Contact us via WhatsApp with your assignment brief and we'll send a quote — first consultation is always free.",
+    q: "How much does academic consulting cost in Australia?",
+    a: "Pricing depends on the subject, scope, complexity, and timeline. We offer transparent pricing with no hidden fees. Contact us via WhatsApp with your project requirements for a free initial quote.",
   },
 ];
 
@@ -96,32 +94,32 @@ const australianUniversities = [
 const services = [
   {
     icon: FileText,
-    title: "Essay Writing Help",
-    desc: "Argumentative, analytical, critical, and reflective essays for all Australian university subjects and programmes.",
+    title: "Coursework & Essay Coaching",
+    desc: "1-on-1 tutoring on argument structuring, critical analysis, scholarly tone, and referencing standards for Australian university coursework.",
     color: "text-orange-600",
     bg: "bg-orange-50",
     border: "border-orange-100",
   },
   {
     icon: GraduationCap,
-    title: "Thesis & Dissertation",
-    desc: "Full thesis and dissertation support for Masters and PhD students at Australian universities — proposal to final submission.",
+    title: "Thesis & Dissertation Mentoring",
+    desc: "Full thesis and dissertation consultation for Masters and PhD students at Australian universities — from proposal development to final defense preparation.",
     color: "text-indigo-600",
     bg: "bg-indigo-50",
     border: "border-indigo-100",
   },
   {
     icon: BarChart3,
-    title: "Data Analysis (SPSS/R)",
-    desc: "Statistical analysis for Australian research students — SPSS, R, Python, and interpretation of results to publication standard.",
+    title: "Data Analysis & Statistics (SPSS/R)",
+    desc: "Statistical tutoring for Australian research students — SPSS, R, Python, hypothesis testing, and interpretation of empirical findings to scholarly standard.",
     color: "text-green-600",
     bg: "bg-green-50",
     border: "border-green-100",
   },
   {
     icon: BookOpen,
-    title: "Literature Review",
-    desc: "Systematic and narrative literature reviews for all disciplines, structured to Australian academic standards.",
+    title: "Literature Review Consultation",
+    desc: "Guidance on structuring systematic and narrative literature reviews for all disciplines according to Australian academic standards.",
     color: "text-purple-600",
     bg: "bg-purple-50",
     border: "border-purple-100",
@@ -130,25 +128,25 @@ const services = [
 
 export default function AssignmentHelpAustraliaPage() {
   const whatsappUrl = buildWhatsAppUrl(
-    "Hi, I'm an Australian student and I need assignment help. Can you tell me more?"
+    "Hi, I'm an Australian university student looking for academic consulting and tutoring. Can you tell me more?"
   );
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Assignment Help", path: "/assignment-help" },
+    { name: "Services", path: "/services" },
     { name: "Australia", path: "/assignment-help-australia" },
   ];
 
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Assignment Help Australia",
+    name: "Academic Tutoring & Consulting Australia",
     description:
-      "Expert online assignment help for students at Australian universities. Thesis writing, dissertation support, essay help, data analysis, and all academic subjects.",
+      "Expert online academic tutoring and consulting for students at Australian universities. Thesis mentoring, dissertation support, data analysis tutoring, and research coaching.",
     provider: { "@id": `${absoluteUrl("/")}#organization` },
     areaServed: { "@type": "Country", name: "Australia" },
     url: absoluteUrl("/assignment-help-australia"),
-    serviceType: "Academic Consulting",
+    serviceType: "Academic Consulting and Tutoring",
     audience: {
       "@type": "EducationalAudience",
       educationalRole: "student",
@@ -177,17 +175,17 @@ export default function AssignmentHelpAustraliaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 mb-6">
             <span className="text-indigo-300 text-sm font-medium">
-              🇦🇺 Assignment Help — Australia
+              🇦🇺 Academic Tutoring &amp; Consulting — Australia
             </span>
           </div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Expert <span className="gradient-text">Assignment Help</span>
+            Expert <span className="gradient-text">Academic Mentoring</span>
             <br />for Australian Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-            Professional assignment help for students across all Australian universities. Essays,
-            coursework, thesis, dissertation, data analysis and more — APA/Harvard referenced,
-            plagiarism-free, deadline-guaranteed.
+            Professional academic consulting and 1-on-1 tutoring for students across all Australian universities.
+            Coursework coaching, thesis mentoring, dissertation guidance, data analysis and more — APA/Harvard referenced,
+            confidential, and deadline-focused.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
@@ -197,7 +195,7 @@ export default function AssignmentHelpAustraliaPage() {
               className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-colors"
             >
               <MessageCircle className="w-5 h-5" />
-              Get Help Now — Free Quote
+              Book Free Consultation
             </a>
             <a
               href="/services"
@@ -211,8 +209,8 @@ export default function AssignmentHelpAustraliaPage() {
             {[
               "All Australian Universities",
               "APA & Harvard Referencing",
-              "Plagiarism-Free",
-              "Deadline Guaranteed",
+              "100% Original Guidance",
+              "Timely Support Guaranteed",
               "WhatsApp-Fast Response",
             ].map((t) => (
               <span key={t} className="flex items-center gap-1.5">
@@ -229,9 +227,9 @@ export default function AssignmentHelpAustraliaPage() {
         <div className="max-w-4xl mx-auto px-4 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "500+", label: "Students Helped" },
+              { value: "500+", label: "Students Guided" },
               { value: "30+", label: "Countries Served" },
-              { value: "98%", label: "On-Time Delivery" },
+              { value: "98%", label: "Satisfaction Rate" },
               { value: "3+", label: "Years Experience" },
             ].map((s) => (
               <div key={s.label}>
@@ -248,11 +246,11 @@ export default function AssignmentHelpAustraliaPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Academic Help Services for Australian Students
+              Academic Support Services for Australian Students
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              From first-year essays to PhD dissertations — we cover every stage of your Australian
-              university journey.
+              From undergraduate coursework coaching to PhD dissertation mentoring — we support every stage of your Australian
+              academic journey.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
@@ -282,8 +280,7 @@ export default function AssignmentHelpAustraliaPage() {
             Australian Universities We Support
           </h2>
           <p className="text-slate-600 mb-10">
-            We've helped students from every major Australian institution meet their deadlines and
-            achieve academic success.
+            We&apos;ve guided students from every major Australian institution to achieve academic confidence and success.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {australianUniversities.map((uni) => (
@@ -312,11 +309,11 @@ export default function AssignmentHelpAustraliaPage() {
               <ul className="space-y-4">
                 {[
                   "Deep familiarity with Australian university assessment standards and marking rubrics",
-                  "APA 7th, Harvard, APA 6th, and all other referencing styles used in Australian institutions",
-                  "Experience with trimester, semester, and year-long programme structures",
-                  "International student specialists — we understand the unique pressures of studying abroad",
-                  "WhatsApp-based communication — no Zoom calls, no email queues, just fast direct support",
-                  "Plagiarism-free guarantee with Turnitin-safe delivery on every assignment",
+                  "APA 7th, Harvard, APA 6th, and all citation styles used across Australian universities",
+                  "Experience with trimester, semester, and year-long Australian academic structures",
+                  "International student specialists — personalized guidance tailored to English-language academic conventions",
+                  "WhatsApp-based communication — direct 1-on-1 consultation without long email delays",
+                  "100% original academic coaching and ethical scholarship assured on every consultation",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
@@ -336,9 +333,9 @@ export default function AssignmentHelpAustraliaPage() {
                 </div>
               </div>
               <blockquote className="text-slate-600 italic leading-relaxed mb-6">
-                "I was an international student at Monash struggling with my MBA dissertation.
+                &ldquo;I was an international student at Monash struggling with my MBA dissertation.
                 Academic Experts Hub guided me through the entire process — from methodology to
-                final submission. I passed with distinction."
+                final submission. I passed with distinction.&rdquo;
               </blockquote>
               <p className="text-slate-500 text-sm font-medium">— MBA Student, Monash University</p>
             </div>
@@ -350,24 +347,24 @@ export default function AssignmentHelpAustraliaPage() {
       <section className="py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-3xl font-bold text-slate-900 mb-12">
-            How to Get Assignment Help in Australia
+            How Academic Consulting Works
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 step: "1",
                 title: "Message Us on WhatsApp",
-                desc: "Send your assignment brief, subject, word count, deadline, and any rubric or marking criteria.",
+                desc: "Send your subject, topic, research questions, and specific areas where you need guidance or tutoring.",
               },
               {
                 step: "2",
-                title: "Get a Free Quote",
-                desc: "We review your requirements and send a transparent quote — usually within a few hours.",
+                title: "Get a Free Consultation & Quote",
+                desc: "We review your requirements and provide clear consultation pricing and timeline — usually within a few hours.",
               },
               {
                 step: "3",
-                title: "Receive Your Work",
-                desc: "Get expert guidance, feedback, and model answers so you can submit confident, original work — every step of the way, by your deadline.",
+                title: "Receive 1-on-1 Expert Mentoring",
+                desc: "Get detailed academic feedback, step-by-step coaching, and model solutions so you master the material and submit with confidence.",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
@@ -395,7 +392,7 @@ export default function AssignmentHelpAustraliaPage() {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl font-bold text-slate-900 text-center mb-12">
-            Assignment Help Australia — FAQ
+            Academic Tutoring Australia — FAQ
           </h2>
           <div className="space-y-6">
             {faqs.map((faq) => (
@@ -413,11 +410,10 @@ export default function AssignmentHelpAustraliaPage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <Clock className="w-10 h-10 text-indigo-400 mx-auto mb-4" />
           <h2 className="font-heading text-3xl font-bold text-white mb-4">
-            Need Assignment Help in Australia Right Now?
+            Need Academic Guidance in Australia?
           </h2>
           <p className="text-slate-300 text-lg mb-8">
-            Send your assignment details on WhatsApp and get a response within hours. Urgent
-            Australian university deadlines welcome.
+            Connect directly with an academic consultant on WhatsApp. Get fast, personalized coaching tailored to Australian university standards.
           </p>
           <a
             href={whatsappUrl}

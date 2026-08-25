@@ -13,12 +13,12 @@ import {
 } from "lucide-react";
 
 const badges = [
-  { icon: Users, label: "500+ Students Helped" },
+  { icon: Users, label: "500+ Students Guided" },
   { icon: TrendingUp, label: "98% Success Rate" },
-  { icon: Clock, label: "24/7 Support" },
-  { icon: ShieldCheck, label: "Plagiarism Free" },
-  { icon: Zap, label: "On-Time Delivery" },
-  { icon: Award, label: "Industry Experts" },
+  { icon: Clock, label: "Fast WhatsApp Response" },
+  { icon: ShieldCheck, label: "100% Original Guidance" },
+  { icon: Zap, label: "Timely Mentorship" },
+  { icon: Award, label: "Experienced Consultants" },
   { icon: Globe, label: "30+ Countries Served" },
   { icon: BookOpen, label: "All Disciplines Covered" },
 ];

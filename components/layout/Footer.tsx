@@ -3,11 +3,11 @@ import { MessageCircle, MapPin } from "lucide-react";
 import Logo from "@/components/layout/Logo";
 
 const serviceLinks = [
-  { label: "Assignment Help", href: "/assignment-help" },
-  { label: "Thesis & Dissertation Writing", href: "/services#thesis" },
+  { label: "Academic Tutoring & Coaching", href: "/services" },
+  { label: "Thesis & Dissertation Consulting", href: "/services#thesis" },
   { label: "Research Methodology", href: "/services#methodology" },
-  { label: "Data Analysis", href: "/services#data-analysis" },
-  { label: "Literature Review", href: "/services#literature" },
+  { label: "Data Analysis & Statistics", href: "/services#data-analysis" },
+  { label: "Literature Review Mentoring", href: "/services#literature" },
   { label: "Software Engineering Projects", href: "/services#software" },
 ];
 
@@ -19,10 +19,10 @@ const quickLinks = [
 ];
 
 const countryLinks = [
-  { label: "Assignment Help Australia", href: "/assignment-help-australia" },
-  { label: "Assignment Help USA", href: "/assignment-help-usa" },
-  { label: "Assignment Help Canada", href: "/assignment-help-canada" },
-  { label: "Assignment Help UK", href: "/assignment-help" },
+  { label: "Academic Tutoring Australia", href: "/assignment-help-australia" },
+  { label: "Academic Tutoring USA", href: "/assignment-help-usa" },
+  { label: "Academic Tutoring Canada", href: "/assignment-help-canada" },
+  { label: "Academic Tutoring UK", href: "/assignment-help" },
 ];
 
 export default function Footer() {

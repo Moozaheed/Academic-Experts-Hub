@@ -125,7 +125,7 @@ export default function Hero() {
           variants={itemVariants}
           className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6"
         >
-          Expert Thesis &amp; Dissertation Help,
+          Expert Thesis &amp; Dissertation Mentoring,
           <br />
           <span className="gradient-text">Professionally Delivered</span>
         </motion.h1>
@@ -135,7 +135,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10"
         >
-          Expert assignment help, thesis writing, dissertation support, and research consulting
+          Professional academic consulting, thesis consultation, dissertation mentoring, and research guidance
           — delivered by industry professionals for international students worldwide.
         </motion.p>
 
@@ -172,9 +172,9 @@ export default function Hero() {
           className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4"
         >
           {[
-            { icon: Users, text: "500+ Students Helped" },
-            { icon: Star, text: "98% Success Rate" },
-            { icon: CheckCircle, text: "Plagiarism-Free Guarantee" },
+            { icon: Users, text: "500+ Students Guided" },
+            { icon: Star, text: "98% Satisfaction Rate" },
+            { icon: CheckCircle, text: "100% Original Academic Mentorship" },
           ].map((item) => {
             const Icon = item.icon;
             return (
