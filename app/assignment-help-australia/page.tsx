@@ -367,7 +367,7 @@ export default function AssignmentHelpAustraliaPage() {
               {
                 step: "3",
                 title: "Receive Your Work",
-                desc: "Your completed, plagiarism-free assignment is delivered before your deadline.",
+                desc: "Get expert guidance, feedback, and model answers so you can submit confident, original work — every step of the way, by your deadline.",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
