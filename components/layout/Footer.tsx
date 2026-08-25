@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import { MessageCircle, MapPin } from "lucide-react";
+import Logo from "@/components/layout/Logo";
 
 const serviceLinks = [
   { label: "Assignment Help", href: "/assignment-help" },
@@ -35,15 +35,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center mb-4">
-              <Image
-                src="/logo.png"
-                alt="Academic Experts Hub"
-                width={140}
-                height={42}
-                className="h-9 w-auto object-contain"
-              />
-            </Link>
+            <div className="mb-4">
+              <Logo />
+            </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Expert academic guidance for international students. From thesis writing to data analysis, we deliver professional-grade support that drives academic success.
             </p>
