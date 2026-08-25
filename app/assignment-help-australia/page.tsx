@@ -183,9 +183,10 @@ export default function AssignmentHelpAustraliaPage() {
             <br />for Australian Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-            Professional academic consulting and 1-on-1 tutoring for students across all Australian universities.
-            Coursework coaching, thesis mentoring, dissertation guidance, data analysis and more — APA/Harvard referenced,
-            confidential, and deadline-focused.
+            Professional academic tutoring and consulting for students across all Australian universities —
+            the same kind of expert guidance you&apos;d get from a private tutor or academic supervisor.
+            Coursework coaching, thesis mentoring, dissertation guidance, data analysis and more,
+            with APA/Harvard referencing support, complete confidentiality, and deadline-aware scheduling.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
@@ -364,7 +365,7 @@ export default function AssignmentHelpAustraliaPage() {
               {
                 step: "3",
                 title: "Receive 1-on-1 Expert Mentoring",
-                desc: "Get detailed academic feedback, step-by-step coaching, and model solutions so you master the material and submit with confidence.",
+                desc: "Get detailed academic feedback, step-by-step coaching, and worked examples so you understand the material fully and submit your own confident, original work.",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
