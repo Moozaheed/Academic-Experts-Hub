@@ -49,6 +49,22 @@ export function organizationJsonLd() {
   };
 }
 
+export function aggregateRatingJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    name: SITE_NAME,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "500",
+      bestRating: "5",
+      worstRating: "1",
+    },
+  };
+}
+
 export function webSiteJsonLd() {
   return {
     "@context": "https://schema.org",

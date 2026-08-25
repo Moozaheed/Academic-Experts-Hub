@@ -14,15 +14,39 @@ export default function Icon() {
           alignItems: "center",
           justifyContent: "center",
           borderRadius: 8,
-          background: "linear-gradient(135deg, #6366f1 0%, #9333ea 100%)",
-          color: "white",
-          fontSize: 14,
-          fontWeight: 900,
-          fontFamily: "sans-serif",
-          letterSpacing: "-0.5px",
+          background: "linear-gradient(135deg, #2563EB 0%, #1E40AF 100%)",
         }}
       >
-        AH
+        {/* Graduation cap shape */}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: 1,
+          }}
+        >
+          {/* Cap top (diamond) */}
+          <div
+            style={{
+              width: 16,
+              height: 7,
+              background: "white",
+              clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)",
+              display: "flex",
+            }}
+          />
+          {/* Cap brim */}
+          <div
+            style={{
+              width: 14,
+              height: 5,
+              background: "#38BDF8",
+              borderRadius: 2,
+              display: "flex",
+            }}
+          />
+        </div>
       </div>
     ),
     { ...size }

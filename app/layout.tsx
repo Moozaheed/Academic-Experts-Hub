@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
-import { SITE_NAME, SITE_URL, organizationJsonLd, webSiteJsonLd } from "@/lib/seo";
+import { SITE_NAME, SITE_URL, organizationJsonLd, webSiteJsonLd, aggregateRatingJsonLd } from "@/lib/seo";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -108,6 +108,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd()) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingJsonLd()) }}
         />
         <Navbar />
         <main>{children}</main>

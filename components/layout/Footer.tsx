@@ -138,8 +138,17 @@ export default function Footer() {
             &copy; {currentYear} Academic Experts Hub. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
-            <span className="text-slate-600 text-xs">Privacy Policy</span>
-            <span className="text-slate-600 text-xs">Terms of Service</span>
+            <span className="text-slate-500 text-xs">
+              Beautifully crafted with{" "}
+              <a
+                href="https://www.linkedin.com/company/craftsmenit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 transition-colors"
+              >
+                Craftsmen.it
+              </a>
+            </span>
           </div>
         </div>
       </div>
