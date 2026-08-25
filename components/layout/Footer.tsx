@@ -133,23 +133,18 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-slate-500 text-xs">
-            &copy; {currentYear} Academic Experts Hub. All rights reserved.
+        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-5 flex items-center justify-center">
+          <p className="text-slate-500 text-xs text-center">
+            Beautifully crafted with{" "}
+            <a
+              href="https://www.linkedin.com/company/craftsmenit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-400 hover:text-indigo-300 transition-colors"
+            >
+              Craftsmen.it
+            </a>
           </p>
-          <div className="flex items-center gap-4">
-            <span className="text-slate-500 text-xs">
-              Beautifully crafted with{" "}
-              <a
-                href="https://www.linkedin.com/company/craftsmenit"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-indigo-400 hover:text-indigo-300 transition-colors"
-              >
-                Craftsmen.it
-              </a>
-            </span>
-          </div>
         </div>
       </div>
     </footer>
