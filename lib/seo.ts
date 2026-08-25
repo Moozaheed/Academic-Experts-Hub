@@ -11,13 +11,19 @@ export function absoluteUrl(path: string): string {
 export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": ["ProfessionalService", "EducationalOrganization"],
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
     description:
-      "Professional academic consulting for international students — thesis and dissertation writing, research methodology, data analysis, literature review, academic writing, and software engineering project support.",
-    areaServed: "Worldwide",
+      "Professional academic consulting for international students — thesis and dissertation writing, research methodology, data analysis, literature review, academic writing, and software engineering project support. Serving students in Australia, USA, Canada, UK, UAE, and worldwide.",
+    areaServed: [
+      { "@type": "Country", name: "Australia" },
+      { "@type": "Country", name: "United States" },
+      { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "United Kingdom" },
+      { "@type": "Country", name: "United Arab Emirates" },
+    ],
     priceRange: "$$",
     telephone: WHATSAPP_NUMBER,
     contactPoint: {
@@ -34,10 +40,24 @@ export function organizationJsonLd() {
       "Data Analysis",
       "Literature Review",
       "Academic Writing",
+      "Assignment Help",
       "Software Engineering Projects",
       "Business Studies",
       "Research Publication Support",
     ],
+    sameAs: [],
+  };
+}
+
+export function webSiteJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    url: SITE_URL,
+    name: SITE_NAME,
+    description: "Expert academic consulting: thesis writing, dissertation help, assignment help, research methodology, and data analysis for international students in Australia, USA, Canada, and worldwide.",
+    publisher: { "@id": `${SITE_URL}/#organization` },
   };
 }
 

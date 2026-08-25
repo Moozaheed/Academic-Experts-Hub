@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { GraduationCap, MessageCircle, Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
+import { MessageCircle, MapPin } from "lucide-react";
 
 const serviceLinks = [
   { label: "Assignment Help", href: "/assignment-help" },
@@ -17,6 +18,13 @@ const quickLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
+const countryLinks = [
+  { label: "Assignment Help Australia", href: "/assignment-help-australia" },
+  { label: "Assignment Help USA", href: "/assignment-help-usa" },
+  { label: "Assignment Help Canada", href: "/assignment-help-canada" },
+  { label: "Assignment Help UK", href: "/assignment-help" },
+];
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -27,13 +35,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0">
-                <GraduationCap className="w-4 h-4 text-white" />
-              </div>
-              <span className="font-heading font-bold text-lg text-white">
-                Academic <span className="gradient-text">Experts</span> Hub
-              </span>
+            <Link href="/" className="flex items-center mb-4">
+              <Image
+                src="/logo.png"
+                alt="Academic Experts Hub"
+                width={140}
+                height={42}
+                className="h-9 w-auto object-contain"
+              />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Expert academic guidance for international students. From thesis writing to data analysis, we deliver professional-grade support that drives academic success.
@@ -81,6 +90,19 @@ export default function Footer() {
             <h3 className="font-heading font-semibold text-white mb-4">Quick Links</h3>
             <ul className="flex flex-col gap-2">
               {quickLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-slate-400 hover:text-white transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <h3 className="font-heading font-semibold text-white mt-6 mb-4">Countries We Serve</h3>
+            <ul className="flex flex-col gap-2">
+              {countryLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

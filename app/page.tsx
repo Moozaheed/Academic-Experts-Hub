@@ -9,9 +9,28 @@ import CTASection from "@/components/home/CTASection";
 import ContactForm from "@/components/home/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Assignment Help, Thesis & Dissertation Writing",
+  title: {
+    absolute:
+      "Assignment Help Australia, USA & Canada | Thesis & Dissertation Writing | Academic Experts Hub",
+  },
   description:
-    "Expert assignment help, thesis writing, dissertation support, research methodology & data analysis for international students. Fast WhatsApp response. Available worldwide.",
+    "Expert assignment help for students in Australia, USA & Canada. Thesis writing, dissertation support, research methodology & data analysis — delivered by professionals. WhatsApp-fast, worldwide.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Assignment Help Australia, USA & Canada | Academic Experts Hub",
+    description:
+      "Expert assignment help, thesis writing & dissertation support for international students in Australia, USA, Canada and worldwide. WhatsApp-fast response.",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Assignment Help Australia, USA & Canada | Academic Experts Hub",
+    description:
+      "Thesis writing, dissertation help & assignment support for students in Australia, USA & Canada. WhatsApp-fast.",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function HomePage() {

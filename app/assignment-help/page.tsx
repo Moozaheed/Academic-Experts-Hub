@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { MessageCircle, CheckCircle, Clock, ArrowRight, FileText, BookOpen, BarChart3, Code2, Briefcase, Zap } from "lucide-react";
 import { buildWhatsAppUrl } from "@/lib/utils";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
@@ -245,6 +246,28 @@ export default function AssignmentHelpPage() {
                 <h3 className="font-heading font-bold text-slate-900 mb-2">{faq.q}</h3>
                 <p className="text-slate-600 leading-relaxed">{faq.a}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Country-specific links */}
+      <section className="py-12 bg-slate-50 border-t border-slate-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-slate-600 font-semibold mb-5">Find country-specific assignment help:</p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              { label: "🇦🇺 Assignment Help Australia", href: "/assignment-help-australia" },
+              { label: "🇺🇸 Assignment Help USA", href: "/assignment-help-usa" },
+              { label: "🇨🇦 Assignment Help Canada", href: "/assignment-help-canada" },
+            ].map((c) => (
+              <Link
+                key={c.href}
+                href={c.href}
+                className="px-5 py-2.5 rounded-full bg-white border border-slate-200 text-slate-700 text-sm font-medium hover:border-indigo-300 hover:text-indigo-700 transition-colors"
+              >
+                {c.label}
+              </Link>
             ))}
           </div>
         </div>
