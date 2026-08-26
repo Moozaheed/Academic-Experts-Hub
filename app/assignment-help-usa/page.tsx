@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Assignment Help USA | Expert Academic Support for US College & University Students | Academic Experts Hub",
   },
   description:
-    "Top-rated online assignment help for US college and university students. Essays, coursework, thesis, dissertation, research & data analysis — APA/MLA/Chicago referenced, deadline-guaranteed. All US universities covered.",
+    "Top-rated academic tutoring & consulting for US college and university students. Thesis mentoring, dissertation guidance, research methodology & data analysis — APA/MLA/Chicago referencing support. WhatsApp-fast, available nationwide.",
   alternates: {
     canonical: "/assignment-help-usa",
   },
@@ -27,18 +27,18 @@ export const metadata: Metadata = {
     "assignment help usa",
     "online assignment help usa",
     "college assignment help",
-    "homework help usa",
+    "student mentoring usa",
     "thesis help usa",
     "dissertation help usa",
-    "assignment writing service usa",
+    "academic consulting usa",
     "academic help usa",
     "essay help usa",
-    "do my assignment usa",
+    "academic tutoring usa",
   ],
   openGraph: {
     title: "Assignment Help USA | Expert Academic Support | Academic Experts Hub",
     description:
-      "Expert online assignment help for US college and university students. All subjects, all levels, APA/MLA/Chicago referencing. WhatsApp-fast, deadline-guaranteed.",
+      "Expert academic tutoring and consulting for US college and university students. All subjects, all levels, APA/MLA/Chicago referencing support. WhatsApp-fast, available nationwide.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
@@ -184,9 +184,10 @@ export default function AssignmentHelpUSAPage() {
             <br />for US Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-            Professional academic support for college and university students across the United
-            States. Essays, research papers, thesis, dissertation, data analysis — APA/MLA/Chicago
-            referenced, deadline-guaranteed.
+            Professional academic tutoring and consulting for college and university students across
+            the United States — the same expert guidance you&apos;d get from a private tutor or academic
+            supervisor. Coursework coaching, thesis mentoring, dissertation guidance, data analysis
+            and more, with APA/MLA/Chicago referencing support and deadline-aware scheduling.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
@@ -210,8 +211,8 @@ export default function AssignmentHelpUSAPage() {
             {[
               "All US Universities & Colleges",
               "APA / MLA / Chicago",
-              "Plagiarism-Free",
-              "Deadline Guaranteed",
+              "100% Original Guidance",
+              "Deadline-Aware Scheduling",
               "WhatsApp-Fast Response",
             ].map((t) => (
               <span key={t} className="flex items-center gap-1.5">
@@ -314,7 +315,7 @@ export default function AssignmentHelpUSAPage() {
                   "Understand the US semester and quarter system — experienced with tight mid-term and final deadlines",
                   "Graduate school specialists: comprehensive Masters and PhD dissertation support",
                   "WhatsApp-based communication — available across US time zones, fast and personal",
-                  "Plagiarism-free guarantee — Turnitin-safe work, every time",
+                  "100% original academic coaching and ethical scholarship — every consultation, without exception",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
@@ -364,8 +365,8 @@ export default function AssignmentHelpUSAPage() {
               },
               {
                 step: "3",
-                title: "Receive Your Work",
-                desc: "Your completed, plagiarism-free assignment is delivered before your deadline.",
+                title: "Receive Expert Mentoring",
+                desc: "Get detailed academic feedback, step-by-step coaching, and worked examples so you fully understand the material and submit confident, original work by your deadline.",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">

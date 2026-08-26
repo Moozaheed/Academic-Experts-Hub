@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Assignment Help Canada | Expert Academic Support for Canadian University Students | Academic Experts Hub",
   },
   description:
-    "Top-rated online assignment help for Canadian university students. Essays, coursework, thesis, dissertation, research & data analysis — APA/MLA referenced, deadline-guaranteed. All Canadian universities covered.",
+    "Top-rated academic tutoring & consulting for Canadian university students. Thesis mentoring, dissertation guidance, research methodology & data analysis — APA/MLA referencing support. WhatsApp-fast, all Canadian universities covered.",
   alternates: {
     canonical: "/assignment-help-canada",
   },
@@ -27,25 +27,25 @@ export const metadata: Metadata = {
     "assignment help canada",
     "online assignment help canada",
     "university assignment help canada",
-    "do my assignment canada",
+    "academic tutoring canada",
     "essay help canada",
     "thesis help canada",
     "dissertation help canada",
-    "assignment writing service canada",
+    "academic consulting canada",
     "academic help canada",
-    "homework help canada",
+    "student mentoring canada",
   ],
   openGraph: {
     title: "Assignment Help Canada | Expert Academic Support | Academic Experts Hub",
     description:
-      "Expert online assignment help for Canadian university students. All subjects, all levels, APA/MLA referencing. WhatsApp-fast, deadline-guaranteed.",
+      "Expert academic tutoring and consulting for Canadian university students. All subjects, all levels, APA/MLA referencing support. WhatsApp-fast, all Canadian universities covered.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Assignment Help Canada | Academic Experts Hub",
     description:
-      "Top-rated assignment help for Canadian students. Thesis, essays, coursework, data analysis — done by experts.",
+      "Top-rated academic tutoring for Canadian students. Thesis, coursework, research methodology & data analysis coaching — WhatsApp-fast.",
     images: ["/opengraph-image"],
   },
 };
@@ -184,9 +184,10 @@ export default function AssignmentHelpCanadaPage() {
             <br />for Canadian Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-            Professional academic support for university students across Canada. Essays, term papers,
-            thesis, dissertation, data analysis — APA/MLA referenced, plagiarism-free,
-            deadline-guaranteed.
+            Professional academic tutoring and consulting for university students across Canada —
+            the same expert guidance you&apos;d get from a private tutor or academic supervisor.
+            Coursework coaching, thesis mentoring, dissertation guidance, data analysis and more,
+            with APA/MLA referencing support, complete confidentiality, and deadline-aware scheduling.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
@@ -210,8 +211,8 @@ export default function AssignmentHelpCanadaPage() {
             {[
               "All Canadian Universities",
               "APA & MLA Referencing",
-              "Plagiarism-Free",
-              "Deadline Guaranteed",
+              "100% Original Guidance",
+              "Deadline-Aware Scheduling",
               "WhatsApp-Fast Response",
             ].map((t) => (
               <span key={t} className="flex items-center gap-1.5">
@@ -314,7 +315,7 @@ export default function AssignmentHelpCanadaPage() {
                   "Experienced with Canadian semester systems and familiar with Fall/Winter/Summer academic cycles",
                   "International student specialists — we understand the challenges of studying in Canada from abroad",
                   "WhatsApp-based communication — fast, direct, and accessible from Eastern to Pacific time zones",
-                  "Plagiarism-free work with Turnitin-safe delivery — every time, without exception",
+                  "100% original academic coaching and ethical scholarship — every consultation, without exception",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
@@ -365,7 +366,7 @@ export default function AssignmentHelpCanadaPage() {
               {
                 step: "3",
                 title: "Receive Your Work",
-                desc: "Your completed, plagiarism-free assignment arrives before your deadline, ready to submit.",
+                desc: "Get detailed academic feedback, step-by-step coaching, and worked examples so you fully understand the material and submit confident, original work by your deadline.",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">

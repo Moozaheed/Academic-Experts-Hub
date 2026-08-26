@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "Academic Tutoring & Consulting Australia | Expert Student Mentoring | Academic Experts Hub",
   },
   description:
-    "Top-rated academic tutoring & consultation for Australian university students. Thesis mentoring, dissertation guidance, research methodology & SPSS data analysis. APA/Harvard referenced. WhatsApp-fast.",
+    "Top-rated academic tutoring & consultation for Australian university students. Thesis mentoring, dissertation guidance, research methodology & SPSS data analysis. APA/Harvard referencing support. WhatsApp-fast.",
   alternates: {
     canonical: "/assignment-help-australia",
   },
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "What subject areas do you cover for Australian students?",
-    a: "Coursework coaching, business reports, case studies, literature reviews, research methodology, data analysis (SPSS, R, Python), engineering projects, and thesis or dissertation support — across undergraduate, Masters, and PhD levels.",
+    a: "Coursework and essay coaching, literature reviews, research methodology, data analysis (SPSS, R, Python), engineering project mentoring, and thesis or dissertation guidance — across undergraduate, Masters, and PhD levels.",
   },
   {
     q: "How much does academic consulting cost in Australia?",

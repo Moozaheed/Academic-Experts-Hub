@@ -5,23 +5,23 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Online Assignment Help for International Students",
+  title: "Assignment Help UK | Academic Tutoring & Expert Consulting | Academic Experts Hub",
   description:
-    "Get expert online assignment help for essays, coursework, case studies, reports & all subjects. Fast WhatsApp response, deadline-guaranteed, available worldwide. Do my assignment — done right.",
+    "Expert academic tutoring and consulting for international students — essays, coursework, research, data analysis and more. 1-on-1 coaching via WhatsApp. Deadline-aware, available worldwide.",
   alternates: {
     canonical: "/assignment-help",
   },
   openGraph: {
-    title: "Online Assignment Help for International Students | Academic Experts Hub",
+    title: "Assignment Help UK | Academic Tutoring & Expert Consulting | Academic Experts Hub",
     description:
-      "Expert online assignment help for essays, coursework, case studies, reports & all subjects. Fast WhatsApp response, deadline-guaranteed, available worldwide.",
+      "Expert academic tutoring and consulting for international students. 1-on-1 coaching on essays, coursework, research, and data analysis. WhatsApp-fast, available worldwide.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Online Assignment Help for International Students | Academic Experts Hub",
+    title: "Assignment Help UK | Academic Tutoring & Expert Consulting | Academic Experts Hub",
     description:
-      "Expert online assignment help for essays, coursework, case studies & reports. WhatsApp-fast, deadline-guaranteed, worldwide.",
+      "Expert academic tutoring for international students — essays, coursework, research & data analysis. 1-on-1 WhatsApp coaching, worldwide.",
     images: ["/opengraph-image"],
   },
 };
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
 const assignmentTypes = [
   {
     icon: FileText,
-    title: "Essay Writing Help",
-    description: "Argumentative, analytical, reflective, and comparative essays across all subjects. Properly structured, well-cited, and tailored to your marking rubric.",
+    title: "Essay & Writing Coaching",
+    description: "Expert coaching on argument structure, critical analysis, scholarly tone, and referencing for argumentative, analytical, and reflective essays across all subjects.",
     tags: ["Argumentative Essays", "Analytical Essays", "Reflective Writing"],
     color: "text-orange-600",
     bg: "bg-orange-50",
@@ -38,45 +38,45 @@ const assignmentTypes = [
   },
   {
     icon: BookOpen,
-    title: "Coursework & Module Assignments",
-    description: "Complete module assignments and coursework tasks for undergraduate and postgraduate programmes — all disciplines covered.",
-    tags: ["Module Tasks", "Coursework", "Undergraduate & PG"],
+    title: "Coursework & Module Tutoring",
+    description: "Personalised guidance on module tasks and coursework for undergraduate and postgraduate students — all disciplines, all levels, tailored to your marking rubric.",
+    tags: ["Module Tasks", "Coursework Guidance", "Undergraduate & PG"],
     color: "text-blue-600",
     bg: "bg-blue-50",
     border: "border-blue-200",
   },
   {
     icon: Briefcase,
-    title: "Business Reports & Case Studies",
-    description: "Professional business reports, case study analysis, marketing plans, and strategic management assignments for MBA and business students.",
-    tags: ["Business Reports", "Case Study", "MBA Assignments"],
+    title: "Business Studies Mentoring",
+    description: "Expert tutoring on business report structures, case study analysis frameworks, and strategic management concepts for MBA and business students.",
+    tags: ["Business Reports", "Case Study Analysis", "MBA Mentoring"],
     color: "text-purple-600",
     bg: "bg-purple-50",
     border: "border-purple-200",
   },
   {
     icon: BarChart3,
-    title: "Data & Research Assignments",
-    description: "Assignments involving data analysis, statistical reporting, SPSS/Python output interpretation, and research-based tasks.",
-    tags: ["Data Analysis", "SPSS Help", "Research Tasks"],
+    title: "Data Analysis & Research Tutoring",
+    description: "Step-by-step coaching on data analysis, statistical interpretation, SPSS/Python usage, and research design for empirical and quantitative work.",
+    tags: ["Data Analysis", "SPSS Tutoring", "Research Methodology"],
     color: "text-green-600",
     bg: "bg-green-50",
     border: "border-green-200",
   },
   {
     icon: Code2,
-    title: "IT & Engineering Assignments",
-    description: "Programming assignments, software design tasks, system analysis, and engineering lab reports with full implementation and documentation.",
-    tags: ["Programming", "System Design", "Lab Reports"],
+    title: "IT & Engineering Project Coaching",
+    description: "Technical mentoring on programming concepts, software design, system analysis, and engineering documentation to help you build and understand your own projects.",
+    tags: ["Programming Guidance", "System Design", "Engineering Projects"],
     color: "text-indigo-600",
     bg: "bg-indigo-50",
     border: "border-indigo-200",
   },
   {
     icon: Zap,
-    title: "Urgent Assignment Help",
-    description: "Stuck with a tight deadline? We handle urgent and same-day assignments without compromising on quality or academic integrity.",
-    tags: ["Same-Day Help", "Urgent Deadlines", "Fast Turnaround"],
+    title: "Urgent Academic Support",
+    description: "Expert guidance available for tight deadlines. Same-day consultation slots often available — reach out via WhatsApp for fast mentor allocation.",
+    tags: ["Same-Day Guidance", "Urgent Deadlines", "Fast Response"],
     color: "text-red-600",
     bg: "bg-red-50",
     border: "border-red-200",
@@ -85,16 +85,16 @@ const assignmentTypes = [
 
 const faqs = [
   {
-    q: "Can you help with any type of assignment?",
-    a: "Yes. We help with essays, reports, case studies, coursework, research assignments, data analysis tasks, business assignments, IT and engineering assignments, and more — across all university subjects and levels.",
+    q: "What academic subjects and topics can you tutor?",
+    a: "We offer tutoring and coaching across all major academic subjects — essays, coursework analysis, research methodology, data analysis, literature reviews, business studies, case study frameworks, IT and engineering projects — at undergraduate, Masters, and PhD level.",
   },
   {
-    q: "How quickly can you complete my assignment?",
-    a: "It depends on the complexity and length, but we regularly handle urgent deadlines including same-day and 24-hour turnarounds. Message us on WhatsApp with your deadline and we will confirm availability immediately.",
+    q: "Can you help with urgent academic deadlines?",
+    a: "Yes. We regularly assist students with tight timelines. Reach out via WhatsApp with your deadline and we will confirm mentor availability quickly — same-day consultation slots are often available.",
   },
   {
-    q: "Is the assignment original and plagiarism-free?",
-    a: "Every assignment is written from scratch and tailored to your specific brief, marking criteria, and institution standards. We run plagiarism checks before delivery.",
+    q: "Is your academic consulting ethical and confidential?",
+    a: "Yes. We provide 1-on-1 academic tutoring, research coaching, and expert feedback — fully adhering to ethical educational standards. All consultations and student information are treated with strict confidentiality.",
   },
   {
     q: "Do you follow my university's referencing style?",
@@ -102,16 +102,16 @@ const faqs = [
   },
   {
     q: "How do I get started?",
-    a: "Simply send us a WhatsApp message with your assignment brief, subject, word count, deadline, and any marking criteria. We will respond within a few hours with a quote and timeline.",
+    a: "Simply send us a WhatsApp message with your subject, topic, specific questions, and deadline. We will respond within a few hours with a tailored consultation plan and pricing.",
   },
 ];
 
 export default function AssignmentHelpPage() {
-  const whatsappUrl = buildWhatsAppUrl("Hi, I need assignment help. Can you tell me more about your services?");
+  const whatsappUrl = buildWhatsAppUrl("Hi, I'm a university student looking for academic tutoring and consulting. Can you tell me more about your services?");
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Assignment Help", path: "/assignment-help" },
+    { name: "Academic Tutoring", path: "/assignment-help" },
   ];
 
   const faqSchema = faqJsonLd(faqs);
@@ -132,14 +132,16 @@ export default function AssignmentHelpPage() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-32 pb-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 mb-6">
-            <span className="text-orange-400 text-sm font-medium">Online Assignment Help — Worldwide</span>
+            <span className="text-orange-400 text-sm font-medium">Academic Tutoring &amp; Consulting — Worldwide</span>
           </div>
           <h1 className="font-heading text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Expert <span className="text-orange-400">Assignment Help</span>
-            <br />for International Students
+            Expert <span className="text-orange-400">Academic Coaching</span>
+            <br />&amp; Assignment Help for International Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-            Essays, coursework, case studies, reports, and more — done by professionals with real academic and industry experience. Deadline-guaranteed. WhatsApp-fast.
+            Professional academic tutoring and consulting — the same expert guidance you&apos;d get
+            from a private tutor or academic supervisor. 1-on-1 coaching on essays, coursework,
+            research, and data analysis, via WhatsApp. Deadline-aware, available worldwide.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -149,7 +151,7 @@ export default function AssignmentHelpPage() {
               className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-colors"
             >
               <MessageCircle className="w-5 h-5" />
-              Get Assignment Help Now
+              Book Free Consultation
             </a>
             <a
               href="/services"
@@ -161,7 +163,7 @@ export default function AssignmentHelpPage() {
           </div>
           {/* Trust signals */}
           <div className="flex flex-wrap justify-center gap-6 mt-10 text-slate-400 text-sm">
-            {["500+ Students Helped", "All Subjects Covered", "Plagiarism-Free", "On-Time Delivery", "Available Worldwide"].map((t) => (
+            {["500+ Students Mentored", "All Subjects Covered", "100% Original Guidance", "Deadline-Aware Scheduling", "Available Worldwide"].map((t) => (
               <span key={t} className="flex items-center gap-1.5">
                 <CheckCircle className="w-4 h-4 text-green-400" />
                 {t}
@@ -171,15 +173,15 @@ export default function AssignmentHelpPage() {
         </div>
       </section>
 
-      {/* Assignment Types */}
+      {/* Tutoring types */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Assignment Help for Every Subject & Type
+              Academic Tutoring for Every Subject &amp; Assignment Type
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              Whether you need essay help, coursework support, or urgent deadline assistance — we cover it all.
+              Whether you need essay coaching, coursework guidance, or urgent mentoring for a tight deadline — we cover every academic need.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -205,13 +207,13 @@ export default function AssignmentHelpPage() {
       <section className="py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-slate-900 mb-12">
-            How to Get Assignment Help
+            How Academic Consulting Works
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { step: "1", title: "Send Your Brief", desc: "WhatsApp us your assignment brief, subject, word count, deadline, and any marking criteria or rubric." },
-              { step: "2", title: "Get a Quote", desc: "We review your requirements and send a quote with a clear timeline — usually within a few hours." },
-              { step: "3", title: "Receive Your Work", desc: "Your completed, plagiarism-free assignment is delivered before your deadline, ready to submit." },
+              { step: "1", title: "Share Your Academic Need", desc: "WhatsApp us your subject, topic, specific questions, and deadline — the more detail you share, the more targeted your mentoring session." },
+              { step: "2", title: "Get a Free Consultation & Quote", desc: "We review your requirements and offer clear consultation pricing and a timeline — usually within a few hours." },
+              { step: "3", title: "Receive Expert 1-on-1 Mentoring", desc: "Get detailed academic feedback, step-by-step coaching, and worked examples so you fully understand the material and submit confident, original work." },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
                 <div className="w-12 h-12 rounded-full bg-orange-500 text-white font-bold text-lg flex items-center justify-center mb-4">
@@ -238,7 +240,7 @@ export default function AssignmentHelpPage() {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-slate-900 text-center mb-12">
-            Assignment Help — Frequently Asked Questions
+            Academic Consulting — Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             {faqs.map((faq) => (
@@ -254,12 +256,12 @@ export default function AssignmentHelpPage() {
       {/* Country-specific links */}
       <section className="py-12 bg-slate-50 border-t border-slate-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-slate-600 font-semibold mb-5">Find country-specific assignment help:</p>
+          <p className="text-slate-600 font-semibold mb-5">Find expert academic tutoring by country:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              { label: "🇦🇺 Assignment Help Australia", href: "/assignment-help-australia" },
-              { label: "🇺🇸 Assignment Help USA", href: "/assignment-help-usa" },
-              { label: "🇨🇦 Assignment Help Canada", href: "/assignment-help-canada" },
+              { label: "🇦🇺 Academic Tutoring Australia", href: "/assignment-help-australia" },
+              { label: "🇺🇸 Academic Tutoring USA", href: "/assignment-help-usa" },
+              { label: "🇨🇦 Academic Tutoring Canada", href: "/assignment-help-canada" },
             ].map((c) => (
               <Link
                 key={c.href}
@@ -278,10 +280,10 @@ export default function AssignmentHelpPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Clock className="w-10 h-10 text-orange-400 mx-auto mb-4" />
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
-            Need Assignment Help Right Now?
+            Need Academic Guidance Right Now?
           </h2>
           <p className="text-slate-300 text-lg mb-8">
-            Send your assignment details on WhatsApp and get a response within hours. Urgent deadlines welcome.
+            Connect with an academic consultant on WhatsApp and get a response within hours. Urgent deadlines welcome.
           </p>
           <a
             href={whatsappUrl}
@@ -290,7 +292,7 @@ export default function AssignmentHelpPage() {
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-lg"
           >
             <MessageCircle className="w-5 h-5" />
-            Get Help on WhatsApp
+            Get Guidance on WhatsApp
           </a>
         </div>
       </section>
