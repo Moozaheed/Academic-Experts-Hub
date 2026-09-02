@@ -41,7 +41,7 @@ export function organizationJsonLd() {
       "Literature Review",
       "Academic Proofreading",
       "Academic Tutoring",
-      "Software Engineering Projects",
+      "Software Engineering Research & Project Mentoring",
       "Business Studies",
       "Research Publication Support",
     ],

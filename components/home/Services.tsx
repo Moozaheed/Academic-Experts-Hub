@@ -68,7 +68,7 @@ const services = [
     title: "Academic Tutoring & Coaching",
     description:
       "1-on-1 academic coaching for coursework, case studies, and research projects. Expert mentoring with proper citation and critical analysis principles across all disciplines.",
-    tags: ["Academic Skills Coaching", "Case Studies", "Academic Writing Tutoring"],
+    tags: ["Academic Skills Coaching", "Case Studies", "Academic Writing Guidance"],
     color: "from-orange-500/10 to-amber-500/5",
     iconBg: "bg-orange-500/10",
     iconColor: "text-orange-500",
@@ -77,7 +77,7 @@ const services = [
   },
   {
     icon: Code2,
-    title: "Software Engineering Projects",
+    title: "Software Engineering Research & Project Mentoring",
     description:
       "Full-stack web applications, machine learning projects, and AI systems. Architecture guidance, code review, and project mentoring for final year engineering students.",
     tags: ["Full-Stack", "Machine Learning", "AI Projects"],
@@ -146,8 +146,8 @@ export default function Services() {
             Comprehensive Academic Support
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            From undergraduate assignments to doctoral dissertations, our expert team delivers
-            research-backed, professionally-crafted academic support across all disciplines.
+            From undergraduate research projects to doctoral dissertations, our expert team provides
+            research-backed academic mentoring and guidance across all disciplines.
           </p>
         </motion.div>
 

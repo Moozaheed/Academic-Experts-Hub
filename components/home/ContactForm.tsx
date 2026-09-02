@@ -38,7 +38,7 @@ const serviceLabels: Record<string, string> = {
   "data-analysis": "Data Analysis (SPSS, R, Python)",
   literature: "Literature Review",
   "academic-writing": "Academic Writing",
-  software: "Software Engineering Projects",
+  software: "Software Engineering Research & Project Mentoring",
   business: "Business Studies",
   publication: "Research Publication Support",
   other: "Other / Not Sure",

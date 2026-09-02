@@ -8,7 +8,7 @@ const serviceLinks = [
   { label: "Research Methodology", href: "/services#methodology" },
   { label: "Data Analysis & Statistics", href: "/services#data-analysis" },
   { label: "Literature Review Mentoring", href: "/services#literature" },
-  { label: "Software Engineering Projects", href: "/services#software" },
+  { label: "Software Engineering Research & Project Mentoring", href: "/services#software" },
 ];
 
 const quickLinks = [

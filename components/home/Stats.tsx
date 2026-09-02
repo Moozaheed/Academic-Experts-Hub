@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { motion, useInView } from "framer-motion";
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import { Users, TrendingUp, UserCheck, Clock, Globe, HeadphonesIcon } from "lucide-react";
 
 interface StatItem {
@@ -28,8 +28,8 @@ const stats: StatItem[] = [
     icon: TrendingUp,
     value: 98,
     suffix: "%",
-    label: "Success Rate",
-    description: "Students who met or exceeded their academic goals",
+    label: "Client Satisfaction",
+    description: "Students who rated their mentoring experience positively",
     color: "text-green-600",
     iconBg: "bg-green-50",
   },
@@ -71,38 +71,23 @@ const stats: StatItem[] = [
   },
 ];
 
-function AnimatedCounter({
-  target,
-  suffix,
-  isVisible,
-}: {
-  target: number;
-  suffix: string;
-  isVisible: boolean;
-}) {
-  const [count, setCount] = useState(0);
+function AnimatedCounter({ target, suffix }: { target: number; suffix: string }) {
+  const [count, setCount] = useState(target);
 
   useEffect(() => {
-    if (!isVisible) return;
-
     let startTime: number | null = null;
-    const duration = 2000;
-
+    const duration = 1800;
     const animate = (timestamp: number) => {
       if (!startTime) startTime = timestamp;
       const elapsed = timestamp - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      // Ease out cubic
       const eased = 1 - Math.pow(1 - progress, 3);
       setCount(Math.round(eased * target));
-
-      if (progress < 1) {
-        requestAnimationFrame(animate);
-      }
+      if (progress < 1) requestAnimationFrame(animate);
     };
-
-    requestAnimationFrame(animate);
-  }, [isVisible, target]);
+    const id = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(id);
+  }, [target]);
 
   return (
     <span className="font-heading text-4xl md:text-5xl font-bold text-slate-900">
@@ -113,9 +98,6 @@ function AnimatedCounter({
 }
 
 export default function Stats() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
   return (
     <section className="section-padding bg-slate-50 border-y border-slate-100">
       <div className="container-custom">
@@ -140,10 +122,7 @@ export default function Stats() {
         </motion.div>
 
         {/* Stats grid */}
-        <div
-          ref={ref}
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5"
-        >
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
           {stats.map((stat, index) => {
             const Icon = stat.icon;
             return (
@@ -161,11 +140,7 @@ export default function Stats() {
                   <Icon className={`w-5 h-5 ${stat.color}`} />
                 </div>
 
-                <AnimatedCounter
-                  target={stat.value}
-                  suffix={stat.suffix}
-                  isVisible={isInView}
-                />
+                <AnimatedCounter target={stat.value} suffix={stat.suffix} />
 
                 <p className="font-semibold text-slate-800 text-sm mt-1 mb-1">{stat.label}</p>
                 <p className="text-slate-400 text-xs leading-relaxed">{stat.description}</p>
