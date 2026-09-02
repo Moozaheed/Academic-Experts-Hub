@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Users, TrendingUp, UserCheck, Clock, Globe, HeadphonesIcon } from "lucide-react";
 
@@ -71,28 +70,10 @@ const stats: StatItem[] = [
   },
 ];
 
-function AnimatedCounter({ target, suffix }: { target: number; suffix: string }) {
-  const [count, setCount] = useState(target);
-
-  useEffect(() => {
-    let startTime: number | null = null;
-    const duration = 1800;
-    const animate = (timestamp: number) => {
-      if (!startTime) startTime = timestamp;
-      const elapsed = timestamp - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.round(eased * target));
-      if (progress < 1) requestAnimationFrame(animate);
-    };
-    const id = requestAnimationFrame(animate);
-    return () => cancelAnimationFrame(id);
-  }, [target]);
-
+function StatNumber({ value, suffix }: { value: number; suffix: string }) {
   return (
     <span className="font-heading text-4xl md:text-5xl font-bold text-slate-900">
-      {count}
-      {suffix}
+      {value}{suffix}
     </span>
   );
 }
@@ -140,7 +121,7 @@ export default function Stats() {
                   <Icon className={`w-5 h-5 ${stat.color}`} />
                 </div>
 
-                <AnimatedCounter target={stat.value} suffix={stat.suffix} />
+                <StatNumber value={stat.value} suffix={stat.suffix} />
 
                 <p className="font-semibold text-slate-800 text-sm mt-1 mb-1">{stat.label}</p>
                 <p className="text-slate-400 text-xs leading-relaxed">{stat.description}</p>

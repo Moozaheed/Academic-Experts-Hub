@@ -7,6 +7,7 @@ import Testimonials from "@/components/home/Testimonials";
 import BlogPreview from "@/components/home/BlogPreview";
 import CTASection from "@/components/home/CTASection";
 import ContactForm from "@/components/home/ContactForm";
+import StudentActivity from "@/components/home/StudentActivity";
 
 export const metadata: Metadata = {
   title: {
@@ -40,6 +41,7 @@ export default function HomePage() {
       <TrustBadges />
       <Services />
       <Stats />
+      <StudentActivity />
       <Testimonials />
       <BlogPreview />
       <CTASection />
