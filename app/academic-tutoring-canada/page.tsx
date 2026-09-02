@@ -5,7 +5,6 @@ import {
   ArrowRight,
   Clock,
   Star,
-  Users,
   GraduationCap,
   FileText,
   BookOpen,
@@ -17,136 +16,138 @@ import { faqJsonLd, breadcrumbJsonLd, absoluteUrl } from "@/lib/seo";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Academic Tutoring & Consulting Australia | Expert Student Mentoring | Academic Experts Hub",
+      "Academic Tutoring & Consulting Canada | Expert Support for Canadian University Students | Academic Experts Hub",
   },
   description:
-    "Top-rated academic tutoring & consultation for Australian university students. Thesis mentoring, dissertation guidance, research methodology & SPSS data analysis. APA/Harvard referencing support. WhatsApp-fast.",
+    "Top-rated academic tutoring & consulting for Canadian university students. Thesis mentoring, dissertation guidance, research methodology & data analysis — APA/MLA referencing support. WhatsApp-fast, all Canadian universities covered.",
   alternates: {
-    canonical: "/assignment-help-australia",
+    canonical: "/academic-tutoring-canada",
   },
   keywords: [
-    "academic tutoring australia",
-    "university tutoring australia",
-    "thesis consultation australia",
-    "dissertation mentoring australia",
-    "research methodology australia",
-    "data analysis tutoring australia",
-    "academic coaching australia",
-    "statistics tutoring australia",
+    "academic tutoring canada",
+    "academic consulting canada",
+    "thesis consulting canada",
+    "dissertation mentoring canada",
+    "student mentoring canada",
+    "research methodology canada",
+    "data analysis tutoring canada",
+    "academic coaching canada",
+    "dissertation guidance canada",
+    "academic skills support canada",
   ],
   openGraph: {
-    title: "Academic Tutoring & Consulting Australia | Academic Experts Hub",
+    title: "Academic Tutoring & Consulting Canada | Expert Academic Support | Academic Experts Hub",
     description:
-      "Expert academic tutoring and thesis consultation for Australian university students. All subjects, APA/Harvard referencing. WhatsApp-fast response.",
+      "Expert academic tutoring and consulting for Canadian university students. All subjects, all levels, APA/MLA referencing support. WhatsApp-fast, all Canadian universities covered.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Academic Tutoring & Consulting Australia | Academic Experts Hub",
+    title: "Academic Tutoring Canada | Academic Experts Hub",
     description:
-      "Top-rated academic tutoring for Australian students. Thesis, dissertation, research methodology & data analysis coaching.",
+      "Top-rated academic tutoring for Canadian students. Thesis, coursework, research methodology & data analysis coaching — WhatsApp-fast.",
     images: ["/opengraph-image"],
   },
 };
 
 const faqs = [
   {
-    q: "Do you tutor students from Australian universities?",
-    a: "Yes. We work with students from all major Australian universities including the University of Melbourne, ANU, University of Sydney, Monash University, UNSW, UQ, UWA, QUT, RMIT, Deakin, La Trobe, and all other institutions across Australia.",
+    q: "Do you help students from Canadian universities?",
+    a: "Yes. We work with students from all major Canadian institutions including University of Toronto, UBC, McGill, University of Alberta, Queen's University, McMaster, Dalhousie, University of Waterloo, Western University, and all other universities and colleges across Canada.",
   },
   {
-    q: "Do you provide guidance on APA and Harvard referencing?",
-    a: "Absolutely. We are experienced with APA 7th edition, Harvard referencing, and all other citation styles commonly required by Australian institutions. Just let us know your university's preferred format.",
+    q: "Do you use APA and MLA referencing as required by Canadian universities?",
+    a: "Absolutely. We are experienced with APA 7th edition, MLA 9th edition, Chicago, and all other citation formats used by Canadian institutions. We follow your specific university or professor's guidelines exactly.",
   },
   {
-    q: "Can you assist with urgent academic deadlines?",
-    a: "Yes. We regularly handle urgent schedules for Australian students. Message us on WhatsApp immediately for fast response — we'll confirm mentor availability within the hour.",
+    q: "Can you meet tight Canadian university deadlines?",
+    a: "Yes. We regularly assist Canadian students with tight timelines, including same-day and urgent mentoring sessions. Message us on WhatsApp immediately for urgent requests — we'll confirm mentor availability right away.",
   },
   {
-    q: "Is your academic consulting legal and confidential?",
-    a: "Yes. We provide 1-on-1 academic tutoring, research coaching, and editing guidance — adhering to ethical educational standards. All consultations and student information are treated with strict confidentiality.",
+    q: "Do you work with both English and bilingual Canadian institutions?",
+    a: "Our primary service is in English, covering all English-language Canadian institutions. We support students at bilingual universities including University of Ottawa who are completing English-language assignments.",
   },
   {
-    q: "What subject areas do you cover for Australian students?",
-    a: "Coursework and essay coaching, literature reviews, research methodology, data analysis (SPSS, R, Python), engineering project mentoring, and thesis or dissertation guidance — across undergraduate, Masters, and PhD levels.",
+    q: "What types of assignments do you help with in Canada?",
+    a: "We provide coaching and mentoring on essays, term papers, coursework, case study analysis, business reports, literature reviews, capstone projects, thesis, dissertations, data analysis, SPSS/R, and engineering or IT projects — all subjects, all levels from undergraduate to PhD.",
   },
   {
-    q: "How much does academic consulting cost in Australia?",
-    a: "Pricing depends on the subject, scope, complexity, and timeline. We offer transparent pricing with no hidden fees. Contact us via WhatsApp with your project requirements for a free initial quote.",
+    q: "How much does academic consulting cost for Canadian students?",
+    a: "Pricing is flexible and depends on subject, length, complexity, and deadline. We provide transparent CAD/USD quotes with no hidden fees. Contact us via WhatsApp for a free, no-obligation quote.",
   },
 ];
 
-const australianUniversities = [
-  "University of Melbourne",
-  "Australian National University",
-  "University of Sydney",
-  "Monash University",
-  "UNSW Sydney",
-  "University of Queensland",
-  "University of Western Australia",
-  "University of Adelaide",
-  "QUT",
-  "RMIT University",
-  "Deakin University",
-  "La Trobe University",
+const canadianUniversities = [
+  "University of Toronto",
+  "University of British Columbia",
+  "McGill University",
+  "University of Alberta",
+  "Queen's University",
+  "McMaster University",
+  "University of Waterloo",
+  "Western University",
+  "Dalhousie University",
+  "Simon Fraser University",
+  "University of Calgary",
+  "Carleton University",
 ];
 
 const services = [
   {
     icon: FileText,
-    title: "Coursework & Essay Coaching",
-    desc: "1-on-1 tutoring on argument structuring, critical analysis, scholarly tone, and referencing standards for Australian university coursework.",
-    color: "text-orange-600",
-    bg: "bg-orange-50",
-    border: "border-orange-100",
+    title: "Essay & Term Paper Help",
+    desc: "Research papers, argumentative essays, critical analyses, and reflective writing for all Canadian university subjects and faculties.",
+    color: "text-red-600",
+    bg: "bg-red-50",
+    border: "border-red-100",
   },
   {
     icon: GraduationCap,
-    title: "Thesis & Dissertation Mentoring",
-    desc: "Full thesis and dissertation consultation for Masters and PhD students at Australian universities — from proposal development to final defense preparation.",
+    title: "Thesis & Dissertation",
+    desc: "Full Masters and PhD dissertation support for Canadian graduate students — proposal development to final defence preparation.",
     color: "text-indigo-600",
     bg: "bg-indigo-50",
     border: "border-indigo-100",
   },
   {
     icon: BarChart3,
-    title: "Data Analysis & Statistics (SPSS/R)",
-    desc: "Statistical tutoring for Australian research students — SPSS, R, Python, hypothesis testing, and interpretation of empirical findings to scholarly standard.",
+    title: "Data Analysis (SPSS/R/Python)",
+    desc: "Statistical analysis for Canadian research students — SPSS, R, Python, and publication-quality results reporting.",
     color: "text-green-600",
     bg: "bg-green-50",
     border: "border-green-100",
   },
   {
     icon: BookOpen,
-    title: "Literature Review Consultation",
-    desc: "Guidance on structuring systematic and narrative literature reviews for all disciplines according to Australian academic standards.",
+    title: "Literature Review & Capstone",
+    desc: "Systematic and narrative literature reviews, annotated bibliographies, and capstone projects for Canadian programmes.",
     color: "text-purple-600",
     bg: "bg-purple-50",
     border: "border-purple-100",
   },
 ];
 
-export default function AssignmentHelpAustraliaPage() {
+export default function AssignmentHelpCanadaPage() {
   const whatsappUrl = buildWhatsAppUrl(
-    "Hi, I'm an Australian university student looking for academic consulting and tutoring. Can you tell me more?"
+    "Hi, I'm a Canadian student looking for academic tutoring and consulting. Can you tell me more?"
   );
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Services", path: "/services" },
-    { name: "Australia", path: "/assignment-help-australia" },
+    { name: "Academic Tutoring", path: "/academic-tutoring" },
+    { name: "Canada", path: "/academic-tutoring-canada" },
   ];
 
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Academic Tutoring & Consulting Australia",
+    name: "Academic Tutoring & Consulting Canada",
     description:
-      "Expert online academic tutoring and consulting for students at Australian universities. Thesis mentoring, dissertation support, data analysis tutoring, and research coaching.",
+      "Expert online academic tutoring and consulting for students at Canadian universities. Thesis consulting, dissertation mentoring, essay coaching, data analysis support, and all academic subjects.",
     provider: { "@id": `${absoluteUrl("/")}#organization` },
-    areaServed: { "@type": "Country", name: "Australia" },
-    url: absoluteUrl("/assignment-help-australia"),
-    serviceType: "Academic Consulting and Tutoring",
+    areaServed: { "@type": "Country", name: "Canada" },
+    url: absoluteUrl("/academic-tutoring-canada"),
+    serviceType: "Academic Consulting",
     audience: {
       "@type": "EducationalAudience",
       educationalRole: "student",
@@ -171,22 +172,22 @@ export default function AssignmentHelpAustraliaPage() {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 pt-32 pb-20">
+      <section className="bg-gradient-to-br from-slate-900 via-red-950 to-slate-900 pt-32 pb-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 mb-6">
-            <span className="text-indigo-300 text-sm font-medium">
-              🇦🇺 Academic Tutoring &amp; Consulting — Australia
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/20 mb-6">
+            <span className="text-red-300 text-sm font-medium">
+              🇨🇦 Academic Support — Canada
             </span>
           </div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Expert <span className="gradient-text">Academic Mentoring</span>
-            <br />for Australian Students
+            <br />&amp; Support for Canadian Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-            Professional academic tutoring and consulting for students across all Australian universities —
-            the same kind of expert guidance you&apos;d get from a private tutor or academic supervisor.
+            Professional academic tutoring and consulting for university students across Canada —
+            the same expert guidance you&apos;d get from a private tutor or academic supervisor.
             Coursework coaching, thesis mentoring, dissertation guidance, data analysis and more,
-            with APA/Harvard referencing support, complete confidentiality, and deadline-aware scheduling.
+            with APA/MLA referencing support, complete confidentiality, and deadline-aware scheduling.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
             <a
@@ -208,10 +209,10 @@ export default function AssignmentHelpAustraliaPage() {
           </div>
           <div className="flex flex-wrap justify-center gap-6 text-slate-400 text-sm">
             {[
-              "All Australian Universities",
-              "APA & Harvard Referencing",
+              "All Canadian Universities",
+              "APA & MLA Referencing",
               "100% Original Guidance",
-              "Responsive, Deadline-Aware Support",
+              "Deadline-Aware Scheduling",
               "WhatsApp-Fast Response",
             ].map((t) => (
               <span key={t} className="flex items-center gap-1.5">
@@ -223,12 +224,12 @@ export default function AssignmentHelpAustraliaPage() {
         </div>
       </section>
 
-      {/* Trust stats */}
+      {/* Stats */}
       <section className="bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto px-4 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "500+", label: "Students Guided" },
+              { value: "500+", label: "Students Helped" },
               { value: "30+", label: "Countries Served" },
               { value: "98%", label: "Satisfaction Rate" },
               { value: "3+", label: "Years Experience" },
@@ -247,11 +248,10 @@ export default function AssignmentHelpAustraliaPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Academic Support Services for Australian Students
+              Academic Help Services for Canadian Students
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              From undergraduate coursework coaching to PhD dissertation mentoring — we support every stage of your Australian
-              academic journey.
+              From first-year essays to doctoral research — expert support at every level.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
@@ -274,17 +274,17 @@ export default function AssignmentHelpAustraliaPage() {
         </div>
       </section>
 
-      {/* Universities we cover */}
+      {/* Universities */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-2xl md:text-3xl font-bold text-slate-900 mb-4">
-            Australian Universities We Support
+            Canadian Universities We Support
           </h2>
           <p className="text-slate-600 mb-10">
-            We&apos;ve supported students from every major Australian institution to build research skills and academic confidence.
+            We've supported students from every major Canadian university and college in building research skills and academic confidence.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            {australianUniversities.map((uni) => (
+            {canadianUniversities.map((uni) => (
               <span
                 key={uni}
                 className="px-4 py-2 bg-white rounded-full border border-slate-200 text-slate-700 text-sm font-medium"
@@ -292,29 +292,29 @@ export default function AssignmentHelpAustraliaPage() {
                 {uni}
               </span>
             ))}
-            <span className="px-4 py-2 bg-indigo-50 rounded-full border border-indigo-200 text-indigo-700 text-sm font-medium">
-              + All Other Australian Universities
+            <span className="px-4 py-2 bg-red-50 rounded-full border border-red-200 text-red-700 text-sm font-medium">
+              + All Other Canadian Institutions
             </span>
           </div>
         </div>
       </section>
 
-      {/* Why choose us */}
+      {/* Why us */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Why Australian Students Choose Us
+                Why Canadian Students Choose Academic Experts Hub
               </h2>
               <ul className="space-y-4">
                 {[
-                  "Deep familiarity with Australian university assessment standards and marking rubrics",
-                  "APA 7th, Harvard, APA 6th, and all citation styles used across Australian universities",
-                  "Experience with trimester, semester, and year-long Australian academic structures",
-                  "International student specialists — personalized guidance tailored to English-language academic conventions",
-                  "WhatsApp-based communication — direct 1-on-1 consultation without long email delays",
-                  "100% original academic coaching and ethical scholarship assured on every consultation",
+                  "Deep familiarity with Canadian university standards, grading criteria, and academic conventions",
+                  "APA 7th, MLA 9th, Chicago, and all other styles used in Canadian institutions",
+                  "Experienced with Canadian semester systems and familiar with Fall/Winter/Summer academic cycles",
+                  "International student specialists — we understand the challenges of studying in Canada from abroad",
+                  "WhatsApp-based communication — fast, direct, and accessible from Eastern to Pacific time zones",
+                  "100% original academic coaching and ethical scholarship — every consultation, without exception",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
@@ -323,22 +323,22 @@ export default function AssignmentHelpAustraliaPage() {
                 ))}
               </ul>
             </div>
-            <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-100">
+            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-8 border border-red-100">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center">
                   <Star className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <p className="font-bold text-slate-900">Trusted by 500+ Students</p>
-                  <p className="text-slate-500 text-sm">Across 30+ countries</p>
+                  <p className="text-slate-500 text-sm">Including Canadian university students</p>
                 </div>
               </div>
               <blockquote className="text-slate-600 italic leading-relaxed mb-6">
-                &ldquo;I was an international student at Monash struggling with my MBA dissertation.
-                Academic Experts Hub guided me through the entire process — from methodology to
-                final submission. I passed with distinction.&rdquo;
+                "I was an international student at UBC struggling with my research thesis. Academic
+                Experts Hub helped me develop my methodology and guided me through the data analysis.
+                I passed with distinction — couldn't have done it without them."
               </blockquote>
-              <p className="text-slate-500 text-sm font-medium">— MBA Student, Monash University</p>
+              <p className="text-slate-500 text-sm font-medium">— Masters Student, UBC</p>
             </div>
           </div>
         </div>
@@ -355,21 +355,21 @@ export default function AssignmentHelpAustraliaPage() {
               {
                 step: "1",
                 title: "Message Us on WhatsApp",
-                desc: "Send your subject, topic, research questions, and specific areas where you need guidance or tutoring.",
+                desc: "Tell us about your subject, research area, key academic questions, and timeline — the more detail you share, the more targeted your mentoring session.",
               },
               {
                 step: "2",
-                title: "Get a Free Consultation & Quote",
-                desc: "We review your requirements and provide clear consultation pricing and timeline — usually within a few hours.",
+                title: "Get a Free Quote",
+                desc: "We review your requirements and send a transparent quote — usually within a few hours.",
               },
               {
                 step: "3",
-                title: "Receive 1-on-1 Expert Mentoring",
-                desc: "Get detailed academic feedback, step-by-step coaching, and worked examples so you understand the material fully and submit your own confident, original work.",
+                title: "Receive Expert Mentoring",
+                desc: "Get detailed academic feedback, step-by-step coaching, and worked examples so you fully understand the material and submit confident, original work by your deadline.",
               },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
-                <div className="w-12 h-12 rounded-full bg-indigo-600 text-white font-bold text-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 rounded-full bg-red-600 text-white font-bold text-lg flex items-center justify-center mb-4">
                   {s.step}
                 </div>
                 <h3 className="font-heading font-bold text-slate-900 mb-2">{s.title}</h3>
@@ -393,7 +393,7 @@ export default function AssignmentHelpAustraliaPage() {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl font-bold text-slate-900 text-center mb-12">
-            Academic Tutoring Australia — FAQ
+            Academic Consulting Canada — FAQ
           </h2>
           <div className="space-y-6">
             {faqs.map((faq) => (
@@ -407,14 +407,15 @@ export default function AssignmentHelpAustraliaPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-slate-900 to-indigo-950">
+      <section className="py-20 bg-gradient-to-br from-slate-900 to-red-950">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <Clock className="w-10 h-10 text-indigo-400 mx-auto mb-4" />
+          <Clock className="w-10 h-10 text-red-400 mx-auto mb-4" />
           <h2 className="font-heading text-3xl font-bold text-white mb-4">
-            Need Academic Guidance in Australia?
+            Need Academic Guidance in Canada?
           </h2>
           <p className="text-slate-300 text-lg mb-8">
-            Connect directly with an academic consultant on WhatsApp. Get fast, personalized coaching tailored to Australian university standards.
+            Send your assignment details on WhatsApp and get a response within hours. Canadian
+            university deadlines — any time zone.
           </p>
           <a
             href={whatsappUrl}

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Expert academic tutoring and consulting for international students — essays, coursework, research, data analysis and more. 1-on-1 coaching via WhatsApp. Deadline-aware, available worldwide.",
   alternates: {
-    canonical: "/assignment-help",
+    canonical: "/academic-tutoring",
   },
   openGraph: {
     title: "Academic Tutoring & Expert Consulting UK | Academic Experts Hub",
@@ -111,7 +111,7 @@ export default function AssignmentHelpPage() {
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Academic Tutoring", path: "/assignment-help" },
+    { name: "Academic Tutoring", path: "/academic-tutoring" },
   ];
 
   const faqSchema = faqJsonLd(faqs);
@@ -259,9 +259,9 @@ export default function AssignmentHelpPage() {
           <p className="text-slate-600 font-semibold mb-5">Find expert academic tutoring by country:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              { label: "🇦🇺 Academic Tutoring Australia", href: "/assignment-help-australia" },
-              { label: "🇺🇸 Academic Tutoring USA", href: "/assignment-help-usa" },
-              { label: "🇨🇦 Academic Tutoring Canada", href: "/assignment-help-canada" },
+              { label: "🇦🇺 Academic Tutoring Australia", href: "/academic-tutoring-australia" },
+              { label: "🇺🇸 Academic Tutoring USA", href: "/academic-tutoring-usa" },
+              { label: "🇨🇦 Academic Tutoring Canada", href: "/academic-tutoring-canada" },
             ].map((c) => (
               <Link
                 key={c.href}

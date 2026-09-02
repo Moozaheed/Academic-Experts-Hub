@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Top-rated academic tutoring & consulting for US college and university students. Thesis mentoring, dissertation guidance, research methodology & data analysis — APA/MLA/Chicago referencing support. WhatsApp-fast, available nationwide.",
   alternates: {
-    canonical: "/assignment-help-usa",
+    canonical: "/academic-tutoring-usa",
   },
   keywords: [
     "academic tutoring usa",
@@ -134,8 +134,8 @@ export default function AssignmentHelpUSAPage() {
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Academic Tutoring", path: "/assignment-help" },
-    { name: "USA", path: "/assignment-help-usa" },
+    { name: "Academic Tutoring", path: "/academic-tutoring" },
+    { name: "USA", path: "/academic-tutoring-usa" },
   ];
 
   const serviceSchema = {
@@ -146,7 +146,7 @@ export default function AssignmentHelpUSAPage() {
       "Expert online academic tutoring and consulting for students at US colleges and universities. Thesis consulting, dissertation mentoring, essay coaching, data analysis support, and all academic subjects.",
     provider: { "@id": `${absoluteUrl("/")}#organization` },
     areaServed: { "@type": "Country", name: "United States" },
-    url: absoluteUrl("/assignment-help-usa"),
+    url: absoluteUrl("/academic-tutoring-usa"),
     serviceType: "Academic Consulting",
     audience: {
       "@type": "EducationalAudience",

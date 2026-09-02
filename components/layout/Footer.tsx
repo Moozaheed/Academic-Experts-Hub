@@ -19,10 +19,10 @@ const quickLinks = [
 ];
 
 const countryLinks = [
-  { label: "Academic Tutoring Australia", href: "/assignment-help-australia" },
-  { label: "Academic Tutoring USA", href: "/assignment-help-usa" },
-  { label: "Academic Tutoring Canada", href: "/assignment-help-canada" },
-  { label: "Academic Tutoring UK", href: "/assignment-help" },
+  { label: "Academic Tutoring Australia", href: "/academic-tutoring-australia" },
+  { label: "Academic Tutoring USA", href: "/academic-tutoring-usa" },
+  { label: "Academic Tutoring Canada", href: "/academic-tutoring-canada" },
+  { label: "Academic Tutoring UK", href: "/academic-tutoring" },
 ];
 
 export default function Footer() {

@@ -10,6 +10,14 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["lucide-react", "framer-motion"],
   },
+  async redirects() {
+    return [
+      { source: "/assignment-help", destination: "/academic-tutoring", permanent: true },
+      { source: "/assignment-help-australia", destination: "/academic-tutoring-australia", permanent: true },
+      { source: "/assignment-help-usa", destination: "/academic-tutoring-usa", permanent: true },
+      { source: "/assignment-help-canada", destination: "/academic-tutoring-canada", permanent: true },
+    ];
+  },
   async headers() {
     return [
       {
