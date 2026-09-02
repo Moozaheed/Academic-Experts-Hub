@@ -20,7 +20,7 @@ const stats: StatItem[] = [
     value: 500,
     suffix: "+",
     label: "Students Helped",
-    description: "International students guided to academic success",
+    description: "International students supported through research and academic development",
     color: "text-blue-600",
     iconBg: "bg-blue-50",
   },

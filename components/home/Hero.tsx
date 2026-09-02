@@ -17,8 +17,8 @@ const floatingCards = [
   },
   {
     icon: Star,
-    label: "98% Success Rate",
-    sublabel: "Satisfied Students",
+    label: "98% Client Satisfaction",
+    sublabel: "Verified Student Reviews",
     color: "from-yellow-500/20 to-amber-500/10",
     border: "border-yellow-500/20",
     iconColor: "text-yellow-400",
@@ -172,9 +172,9 @@ export default function Hero() {
           className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4"
         >
           {[
-            { icon: Users, text: "500+ Students Guided" },
-            { icon: Star, text: "98% Satisfaction Rate" },
-            { icon: CheckCircle, text: "100% Original Academic Mentorship" },
+            { icon: Users, text: "500+ Students Supported" },
+            { icon: Star, text: "98% Client Satisfaction" },
+            { icon: CheckCircle, text: "Expert-Led Academic Mentorship" },
           ].map((item) => {
             const Icon = item.icon;
             return (

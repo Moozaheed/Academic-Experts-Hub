@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | Academic Experts Hub",
   },
   description:
-    "Expert academic consulting and tutoring for university students. Professional mentoring for thesis writing, dissertation consulting, research methodology, data analysis, literature reviews, and software engineering projects.",
+    "Expert academic consulting and tutoring for university students. Professional mentoring for thesis consulting, dissertation guidance, research methodology, data analysis, literature reviews, and software engineering project mentoring.",
   keywords: [
     "academic tutoring",
     "academic consulting",

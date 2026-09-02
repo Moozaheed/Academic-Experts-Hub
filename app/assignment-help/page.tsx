@@ -5,21 +5,21 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Assignment Help UK | Academic Tutoring & Expert Consulting | Academic Experts Hub",
+  title: "Academic Tutoring & Expert Consulting UK | Academic Experts Hub",
   description:
     "Expert academic tutoring and consulting for international students — essays, coursework, research, data analysis and more. 1-on-1 coaching via WhatsApp. Deadline-aware, available worldwide.",
   alternates: {
     canonical: "/assignment-help",
   },
   openGraph: {
-    title: "Assignment Help UK | Academic Tutoring & Expert Consulting | Academic Experts Hub",
+    title: "Academic Tutoring & Expert Consulting UK | Academic Experts Hub",
     description:
       "Expert academic tutoring and consulting for international students. 1-on-1 coaching on essays, coursework, research, and data analysis. WhatsApp-fast, available worldwide.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Assignment Help UK | Academic Tutoring & Expert Consulting | Academic Experts Hub",
+    title: "Academic Tutoring & Expert Consulting UK | Academic Experts Hub",
     description:
       "Expert academic tutoring for international students — essays, coursework, research & data analysis. 1-on-1 WhatsApp coaching, worldwide.",
     images: ["/opengraph-image"],
@@ -136,7 +136,7 @@ export default function AssignmentHelpPage() {
           </div>
           <h1 className="font-heading text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
             Expert <span className="text-orange-400">Academic Coaching</span>
-            <br />&amp; Assignment Help for International Students
+            <br />&amp; Academic Skills Support for International Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
             Professional academic tutoring and consulting — the same expert guidance you&apos;d get

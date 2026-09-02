@@ -16,7 +16,7 @@ import { faqJsonLd, breadcrumbJsonLd, absoluteUrl } from "@/lib/seo";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Assignment Help Canada | Expert Academic Support for Canadian University Students | Academic Experts Hub",
+      "Academic Tutoring & Consulting Canada | Expert Support for Canadian University Students | Academic Experts Hub",
   },
   description:
     "Top-rated academic tutoring & consulting for Canadian university students. Thesis mentoring, dissertation guidance, research methodology & data analysis — APA/MLA referencing support. WhatsApp-fast, all Canadian universities covered.",
@@ -24,26 +24,26 @@ export const metadata: Metadata = {
     canonical: "/assignment-help-canada",
   },
   keywords: [
-    "assignment help canada",
-    "online assignment help canada",
-    "university assignment help canada",
     "academic tutoring canada",
-    "essay help canada",
-    "thesis help canada",
-    "dissertation help canada",
     "academic consulting canada",
-    "academic help canada",
+    "thesis consulting canada",
+    "dissertation mentoring canada",
     "student mentoring canada",
+    "research methodology canada",
+    "data analysis tutoring canada",
+    "academic coaching canada",
+    "dissertation guidance canada",
+    "academic skills support canada",
   ],
   openGraph: {
-    title: "Assignment Help Canada | Expert Academic Support | Academic Experts Hub",
+    title: "Academic Tutoring & Consulting Canada | Expert Academic Support | Academic Experts Hub",
     description:
       "Expert academic tutoring and consulting for Canadian university students. All subjects, all levels, APA/MLA referencing support. WhatsApp-fast, all Canadian universities covered.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Assignment Help Canada | Academic Experts Hub",
+    title: "Academic Tutoring Canada | Academic Experts Hub",
     description:
       "Top-rated academic tutoring for Canadian students. Thesis, coursework, research methodology & data analysis coaching — WhatsApp-fast.",
     images: ["/opengraph-image"],
@@ -72,7 +72,7 @@ const faqs = [
     a: "We provide coaching and mentoring on essays, term papers, coursework, case study analysis, business reports, literature reviews, capstone projects, thesis, dissertations, data analysis, SPSS/R, and engineering or IT projects — all subjects, all levels from undergraduate to PhD.",
   },
   {
-    q: "How much does assignment help cost for Canadian students?",
+    q: "How much does academic consulting cost for Canadian students?",
     a: "Pricing is flexible and depends on subject, length, complexity, and deadline. We provide transparent CAD/USD quotes with no hidden fees. Contact us via WhatsApp for a free, no-obligation quote.",
   },
 ];
@@ -134,7 +134,7 @@ export default function AssignmentHelpCanadaPage() {
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Assignment Help", path: "/assignment-help" },
+    { name: "Academic Tutoring", path: "/assignment-help" },
     { name: "Canada", path: "/assignment-help-canada" },
   ];
 
@@ -176,12 +176,12 @@ export default function AssignmentHelpCanadaPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/20 mb-6">
             <span className="text-red-300 text-sm font-medium">
-              🇨🇦 Assignment Help — Canada
+              🇨🇦 Academic Support — Canada
             </span>
           </div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Expert <span className="gradient-text">Assignment Help</span>
-            <br />for Canadian Students
+            Expert <span className="gradient-text">Academic Mentoring</span>
+            <br />&amp; Support for Canadian Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
             Professional academic tutoring and consulting for university students across Canada —
@@ -197,7 +197,7 @@ export default function AssignmentHelpCanadaPage() {
               className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-colors"
             >
               <MessageCircle className="w-5 h-5" />
-              Get Help Now — Free Quote
+              Book Free Consultation
             </a>
             <a
               href="/services"
@@ -281,8 +281,7 @@ export default function AssignmentHelpCanadaPage() {
             Canadian Universities We Support
           </h2>
           <p className="text-slate-600 mb-10">
-            We've helped students from every major Canadian university and college meet their
-            deadlines and achieve academic success.
+            We've supported students from every major Canadian university and college in building research skills and academic confidence.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {canadianUniversities.map((uni) => (
@@ -349,7 +348,7 @@ export default function AssignmentHelpCanadaPage() {
       <section className="py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-3xl font-bold text-slate-900 mb-12">
-            How to Get Assignment Help in Canada
+            How Academic Consulting Works
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -394,7 +393,7 @@ export default function AssignmentHelpCanadaPage() {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl font-bold text-slate-900 text-center mb-12">
-            Assignment Help Canada — FAQ
+            Academic Consulting Canada — FAQ
           </h2>
           <div className="space-y-6">
             {faqs.map((faq) => (
@@ -412,7 +411,7 @@ export default function AssignmentHelpCanadaPage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <Clock className="w-10 h-10 text-red-400 mx-auto mb-4" />
           <h2 className="font-heading text-3xl font-bold text-white mb-4">
-            Need Assignment Help in Canada Right Now?
+            Need Academic Guidance in Canada?
           </h2>
           <p className="text-slate-300 text-lg mb-8">
             Send your assignment details on WhatsApp and get a response within hours. Canadian
@@ -425,7 +424,7 @@ export default function AssignmentHelpCanadaPage() {
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-lg"
           >
             <MessageCircle className="w-5 h-5" />
-            Get Help on WhatsApp
+            Get Expert Guidance on WhatsApp
           </a>
         </div>
       </section>

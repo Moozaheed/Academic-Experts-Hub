@@ -68,7 +68,7 @@ const services = [
     title: "Academic Tutoring & Coaching",
     description:
       "1-on-1 academic coaching for coursework, case studies, and research projects. Expert mentoring with proper citation and critical analysis principles across all disciplines.",
-    tags: ["Coursework Coaching", "Case Studies", "Academic Writing Tutoring"],
+    tags: ["Academic Skills Coaching", "Case Studies", "Academic Writing Tutoring"],
     color: "from-orange-500/10 to-amber-500/5",
     iconBg: "bg-orange-500/10",
     iconColor: "text-orange-500",
@@ -199,7 +199,7 @@ export default function Services() {
                   rel="noopener noreferrer"
                   className={`inline-flex items-center gap-1.5 text-sm font-semibold ${service.iconColor} hover:gap-2.5 transition-all duration-200`}
                 >
-                  Get Help
+                  Get Expert Guidance
                   <ArrowRight className="w-3.5 h-3.5" />
                 </a>
               </motion.div>

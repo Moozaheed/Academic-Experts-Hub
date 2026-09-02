@@ -33,7 +33,7 @@ interface FormErrors {
 }
 
 const serviceLabels: Record<string, string> = {
-  thesis: "Thesis & Dissertation Writing",
+  thesis: "Thesis & Dissertation Guidance",
   methodology: "Research Methodology",
   "data-analysis": "Data Analysis (SPSS, R, Python)",
   literature: "Literature Review",

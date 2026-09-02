@@ -211,7 +211,7 @@ export default function AssignmentHelpAustraliaPage() {
               "All Australian Universities",
               "APA & Harvard Referencing",
               "100% Original Guidance",
-              "Timely Support Guaranteed",
+              "Responsive, Deadline-Aware Support",
               "WhatsApp-Fast Response",
             ].map((t) => (
               <span key={t} className="flex items-center gap-1.5">
@@ -281,7 +281,7 @@ export default function AssignmentHelpAustraliaPage() {
             Australian Universities We Support
           </h2>
           <p className="text-slate-600 mb-10">
-            We&apos;ve guided students from every major Australian institution to achieve academic confidence and success.
+            We&apos;ve supported students from every major Australian institution to build research skills and academic confidence.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {australianUniversities.map((uni) => (
@@ -423,7 +423,7 @@ export default function AssignmentHelpAustraliaPage() {
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-lg"
           >
             <MessageCircle className="w-5 h-5" />
-            Get Help on WhatsApp
+            Get Expert Guidance on WhatsApp
           </a>
         </div>
       </section>

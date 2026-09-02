@@ -134,7 +134,7 @@ const services = [
   {
     id: "assignment-help",
     icon: FileText,
-    title: "Assignment & Coursework Coaching",
+    title: "Academic Skills Support & Coaching",
     tagline: "Expert guidance for all subjects & disciplines",
     description:
       "Expert academic coaching for essays, reports, case studies, coursework, and all university assignments. Whether it's urgent, complex, or a subject you're struggling with — we guide you to produce high-quality, properly cited work that meets your institution's standards.",
@@ -159,7 +159,7 @@ const services = [
     iconColor: "text-orange-600",
     borderColor: "border-orange-200",
     whatsappMessage:
-      "Hi, I need assignment help. Can you assist me?",
+      "Hi, I need academic coaching and guidance. Can you assist me?",
   },
   {
     id: "software",

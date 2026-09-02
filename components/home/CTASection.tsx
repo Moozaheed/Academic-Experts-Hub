@@ -39,12 +39,12 @@ export default function CTASection() {
           </div>
 
           <h2 className="font-heading text-4xl md:text-6xl font-bold text-white mb-5 leading-tight">
-            Ready to Excel{" "}
-            <span className="gradient-text-light">Academically?</span>
+            Ready to Strengthen{" "}
+            <span className="gradient-text-light">Your Research?</span>
           </h2>
 
           <p className="text-slate-300 text-xl leading-relaxed mb-10 max-w-2xl mx-auto">
-            Book your free consultation today and get expert guidance for your academic success.
+            Book your free consultation today and get expert guidance for your research and academic development.
             Our team responds within hours on WhatsApp.
           </p>
 

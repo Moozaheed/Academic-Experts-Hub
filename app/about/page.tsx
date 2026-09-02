@@ -20,14 +20,14 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "About Us — Professional Academic Consulting Worldwide",
   description:
-    "Academic Experts Hub is built by a Software Engineer with 3+ years of experience helping international students with thesis writing, dissertations, research methodology, and data analysis.",
+    "Academic Experts Hub is built by a Software Engineer with 3+ years of experience helping international students with thesis consulting, dissertation guidance, research methodology, and data analysis.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
     title: "About Academic Experts Hub | Professional Academic Consulting Worldwide",
     description:
-      "Academic Experts Hub is built by a Software Engineer with 3+ years of experience helping international students with thesis writing, dissertations, research methodology, and data analysis.",
+      "Academic Experts Hub is built by a Software Engineer with 3+ years of experience helping international students with thesis consulting, dissertation guidance, research methodology, and data analysis.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {

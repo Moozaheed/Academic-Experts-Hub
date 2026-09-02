@@ -13,8 +13,8 @@ import {
 } from "lucide-react";
 
 const badges = [
-  { icon: Users, label: "500+ Students Guided" },
-  { icon: TrendingUp, label: "98% Success Rate" },
+  { icon: Users, label: "500+ Students Supported" },
+  { icon: TrendingUp, label: "98% Client Satisfaction" },
   { icon: Clock, label: "Fast WhatsApp Response" },
   { icon: ShieldCheck, label: "100% Original Guidance" },
   { icon: Zap, label: "Timely Mentorship" },

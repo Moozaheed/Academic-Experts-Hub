@@ -16,7 +16,7 @@ import { faqJsonLd, breadcrumbJsonLd, absoluteUrl } from "@/lib/seo";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Assignment Help USA | Expert Academic Support for US College & University Students | Academic Experts Hub",
+      "Academic Tutoring & Consulting USA | Expert Support for US College & University Students | Academic Experts Hub",
   },
   description:
     "Top-rated academic tutoring & consulting for US college and university students. Thesis mentoring, dissertation guidance, research methodology & data analysis — APA/MLA/Chicago referencing support. WhatsApp-fast, available nationwide.",
@@ -24,28 +24,28 @@ export const metadata: Metadata = {
     canonical: "/assignment-help-usa",
   },
   keywords: [
-    "assignment help usa",
-    "online assignment help usa",
-    "college assignment help",
-    "student mentoring usa",
-    "thesis help usa",
-    "dissertation help usa",
-    "academic consulting usa",
-    "academic help usa",
-    "essay help usa",
     "academic tutoring usa",
+    "academic consulting usa",
+    "thesis consulting usa",
+    "dissertation mentoring usa",
+    "student mentoring usa",
+    "research methodology usa",
+    "data analysis tutoring usa",
+    "academic coaching usa",
+    "dissertation guidance usa",
+    "academic skills support usa",
   ],
   openGraph: {
-    title: "Assignment Help USA | Expert Academic Support | Academic Experts Hub",
+    title: "Academic Tutoring & Consulting USA | Expert Academic Support | Academic Experts Hub",
     description:
       "Expert academic tutoring and consulting for US college and university students. All subjects, all levels, APA/MLA/Chicago referencing support. WhatsApp-fast, available nationwide.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Assignment Help USA | Academic Experts Hub",
+    title: "Academic Tutoring USA | Academic Experts Hub",
     description:
-      "Top-rated academic tutoring for US students. Thesis consultation, coursework coaching, research methodology & data analysis mentoring — WhatsApp-fast.",
+      "Top-rated academic tutoring for US students. Thesis consulting, academic skills coaching, research methodology & data analysis mentoring — WhatsApp-fast.",
     images: ["/opengraph-image"],
   },
 };
@@ -68,11 +68,11 @@ const faqs = [
     a: "We provide coaching and mentoring on essays, term papers, research papers, case study analysis, business reports, literature reviews, capstone projects, thesis, dissertations, data analysis, SPSS, and coding projects — all subjects, all levels from undergraduate to PhD.",
   },
   {
-    q: "Do you help with graduate school thesis and dissertation writing?",
+    q: "Do you support graduate school thesis and dissertation research?",
     a: "Yes. We provide comprehensive Masters and PhD dissertation mentoring for US graduate students — from proposal development and chapter review to data analysis coaching, defense preparation, and revision guidance.",
   },
   {
-    q: "How much does assignment help cost for US students?",
+    q: "How much does academic consulting cost for US students?",
     a: "Pricing depends on the subject, length, complexity, and deadline. We price competitively in USD and offer transparent quotes with no hidden fees. Contact us via WhatsApp for a free quote.",
   },
 ];
@@ -134,7 +134,7 @@ export default function AssignmentHelpUSAPage() {
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Assignment Help", path: "/assignment-help" },
+    { name: "Academic Tutoring", path: "/assignment-help" },
     { name: "USA", path: "/assignment-help-usa" },
   ];
 
@@ -176,12 +176,12 @@ export default function AssignmentHelpUSAPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 mb-6">
             <span className="text-blue-300 text-sm font-medium">
-              🇺🇸 Assignment Help — USA
+              🇺🇸 Academic Support — USA
             </span>
           </div>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Expert <span className="gradient-text">Assignment Help</span>
-            <br />for US Students
+            Expert <span className="gradient-text">Academic Mentoring</span>
+            <br />&amp; Support for US Students
           </h1>
           <p className="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
             Professional academic tutoring and consulting for college and university students across
@@ -197,7 +197,7 @@ export default function AssignmentHelpUSAPage() {
               className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-colors"
             >
               <MessageCircle className="w-5 h-5" />
-              Get Help Now — Free Quote
+              Book Free Consultation
             </a>
             <a
               href="/services"
@@ -349,7 +349,7 @@ export default function AssignmentHelpUSAPage() {
       <section className="py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-heading text-3xl font-bold text-slate-900 mb-12">
-            How to Get Assignment Help in the USA
+            How Academic Consulting Works
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -394,7 +394,7 @@ export default function AssignmentHelpUSAPage() {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl font-bold text-slate-900 text-center mb-12">
-            Assignment Help USA — FAQ
+            Academic Consulting USA — FAQ
           </h2>
           <div className="space-y-6">
             {faqs.map((faq) => (
@@ -412,7 +412,7 @@ export default function AssignmentHelpUSAPage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <Clock className="w-10 h-10 text-blue-400 mx-auto mb-4" />
           <h2 className="font-heading text-3xl font-bold text-white mb-4">
-            Need Assignment Help in the USA Right Now?
+            Need Academic Guidance in the USA?
           </h2>
           <p className="text-slate-300 text-lg mb-8">
             Send your assignment details on WhatsApp and get a response within hours. US university
@@ -425,7 +425,7 @@ export default function AssignmentHelpUSAPage() {
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-lg"
           >
             <MessageCircle className="w-5 h-5" />
-            Get Help on WhatsApp
+            Get Expert Guidance on WhatsApp
           </a>
         </div>
       </section>
