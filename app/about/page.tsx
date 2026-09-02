@@ -41,7 +41,7 @@ const values = [
     icon: Target,
     title: "Precision-Driven",
     description:
-      "Every deliverable is crafted with the precision of professional engineering — structured, evidence-based, and aligned with academic standards.",
+      "Every consultation is conducted with the precision of professional engineering — structured, evidence-based, and aligned with the highest academic standards.",
     color: "text-blue-600",
     bg: "bg-blue-50",
   },
@@ -57,7 +57,7 @@ const values = [
     icon: Award,
     title: "Quality First",
     description:
-      "We never sacrifice quality for speed. Every submission is reviewed, refined, and validated against the highest academic standards.",
+      "We never sacrifice quality for speed. Every piece of guidance is reviewed, refined, and validated against the highest academic standards before we share it with the student.",
     color: "text-indigo-600",
     bg: "bg-indigo-50",
   },
@@ -65,7 +65,7 @@ const values = [
     icon: Zap,
     title: "Responsiveness",
     description:
-      "Academic deadlines are non-negotiable. We are responsive, reliable, and consistently deliver on time — without exception.",
+      "Academic timelines matter. We are responsive, reliable, and consistently available when student deadlines approach — without exception.",
     color: "text-amber-600",
     bg: "bg-amber-50",
   },
@@ -254,7 +254,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-slate-300 text-lg mb-8">
             Join hundreds of international students who have trusted Academic Experts Hub
-            with their most important academic work.
+            to guide them through their most important academic challenges.
           </p>
           <a
             href={buildWhatsAppUrl(

@@ -18,14 +18,14 @@ import { servicesJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Thesis, Dissertation & Research Help Services",
   description:
-    "Expert academic consulting: thesis writing, dissertation help, research methodology, data analysis, literature review, software engineering projects & research publication support. Available worldwide.",
+    "Expert academic consulting: thesis consultation, dissertation mentoring, research methodology, data analysis, literature review coaching, software engineering project mentoring & research publication support. Available worldwide.",
   alternates: {
     canonical: "/services",
   },
   openGraph: {
     title: "Thesis, Dissertation & Research Help Services | Academic Experts Hub",
     description:
-      "Expert academic consulting: thesis writing, dissertation help, research methodology, data analysis, literature review, software engineering projects & research publication support.",
+      "Expert academic consulting: thesis consultation, dissertation mentoring, research methodology, data analysis, literature review coaching, software engineering project mentoring & research publication support.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
@@ -38,18 +38,18 @@ const services = [
   {
     id: "thesis",
     icon: BookOpen,
-    title: "Thesis & Dissertation Writing",
-    tagline: "From proposal to defense-ready",
+    title: "Thesis & Dissertation Consulting",
+    tagline: "Guided from proposal to defense readiness",
     description:
-      "Full thesis and dissertation support tailored to your research area, institution requirements, and degree level. We work with postgraduate students across all disciplines, from sciences and engineering to business and humanities.",
+      "Expert thesis and dissertation mentoring tailored to your research area, institution requirements, and degree level. We guide postgraduate students across all disciplines, from sciences and engineering to business and humanities.",
     included: [
       "Research proposal and topic development",
-      "Chapter-by-chapter writing and editing",
-      "Academic argumentation and structure",
-      "Citation and referencing (APA, Harvard, MLA, Chicago)",
-      "Plagiarism checking and originality guarantee",
-      "Supervisor comment integration",
-      "Defense preparation and abstract writing",
+      "Chapter-by-chapter review and developmental feedback",
+      "Academic argumentation and structure coaching",
+      "Citation and referencing guidance (APA, Harvard, MLA, Chicago)",
+      "Academic integrity and originality guidance",
+      "Supervisor comment integration support",
+      "Defense preparation and abstract coaching",
     ],
     suitable: ["PhD Students", "Masters Students", "MBA Candidates"],
     color: "from-blue-500/10 to-indigo-500/5",
@@ -129,23 +129,23 @@ const services = [
     iconColor: "text-emerald-600",
     borderColor: "border-emerald-200",
     whatsappMessage:
-      "Hi, I need help writing a literature review. Can you assist me?",
+      "Hi, I need guidance on my literature review. Can you assist me?",
   },
   {
     id: "assignment-help",
     icon: FileText,
-    title: "Assignment Help",
-    tagline: "Online assignment help for all subjects & disciplines",
+    title: "Assignment & Coursework Coaching",
+    tagline: "Expert guidance for all subjects & disciplines",
     description:
-      "Expert online assignment help for essays, reports, case studies, coursework, and all academic assignments. Whether it's urgent, complex, or a subject you're struggling with — we deliver high-quality, properly cited work to your institution's standards, on time.",
+      "Expert academic coaching for essays, reports, case studies, coursework, and all university assignments. Whether it's urgent, complex, or a subject you're struggling with — we guide you to produce high-quality, properly cited work that meets your institution's standards.",
     included: [
-      "Essay writing help (argumentative, analytical, reflective)",
-      "Coursework and module assignments",
-      "Business and management reports",
-      "Case study analysis and write-up",
-      "Annotated bibliographies",
-      "Academic English editing and proofreading",
-      "Urgent and same-day assignment help",
+      "Essay coaching (argumentative, analytical, reflective)",
+      "Coursework and module tutoring",
+      "Business and management report structuring",
+      "Case study analysis frameworks and guidance",
+      "Annotated bibliography tutoring",
+      "Academic English mentoring and feedback",
+      "Urgent academic coaching and deadline support",
       "Assignment-specific formatting (APA, Harvard, MLA)",
     ],
     suitable: [
@@ -164,18 +164,18 @@ const services = [
   {
     id: "software",
     icon: Code2,
-    title: "Software Engineering Projects",
-    tagline: "Full-stack, ML, and AI project implementation",
+    title: "Software Engineering Project Mentoring",
+    tagline: "Full-stack, ML, and AI project guidance",
     description:
-      "Complete software engineering project development for final year and postgraduate students. From system design through full implementation, documentation, and deployment — built to the standards of professional software development.",
+      "Expert mentoring for software engineering final year and postgraduate projects. We guide students through system design, implementation decisions, and documentation — so you build projects you fully understand and can confidently present and defend.",
     included: [
-      "System architecture and design",
-      "Full-stack web application development (Next.js, React, Node.js)",
-      "Machine learning and AI project implementation",
-      "Database design and implementation",
-      "API development and integration",
-      "Technical documentation and README",
-      "Code review, testing, and deployment support",
+      "System architecture and design coaching",
+      "Full-stack guidance (Next.js, React, Node.js)",
+      "Machine learning and AI project mentoring",
+      "Database design and modelling review",
+      "API design and integration coaching",
+      "Technical documentation and README feedback",
+      "Code review, testing strategies, and deployment guidance",
     ],
     suitable: [
       "Computer Science Students",
@@ -195,9 +195,9 @@ const services = [
     title: "Business Studies",
     tagline: "MBA, marketing, finance, and strategy",
     description:
-      "Industry-informed academic support for business and management students. We combine rigorous academic frameworks with real-world business understanding to produce work that is both theoretically grounded and practically insightful.",
+      "Industry-informed academic consulting for business and management students. We combine rigorous academic frameworks with real-world business understanding to guide students in developing work that is both theoretically grounded and practically insightful.",
     included: [
-      "MBA dissertation research and writing",
+      "MBA dissertation research guidance and mentoring",
       "Marketing strategy and consumer behavior analysis",
       "Financial modeling and corporate finance assignments",
       "Strategic management case studies",
@@ -256,14 +256,14 @@ export default function ServicesPage() {
         />
         <div className="relative max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 mb-6">
-            <span className="text-white/80 text-sm font-medium">What We Deliver</span>
+            <span className="text-white/80 text-sm font-medium">How We Help</span>
           </div>
           <h1 className="font-heading text-4xl md:text-6xl font-bold text-white mb-5">
             Expert Academic <span className="gradient-text">Consulting Services</span>
           </h1>
           <p className="text-slate-300 text-xl leading-relaxed max-w-2xl mx-auto">
-            Professional academic support across all disciplines, from thesis writing and
-            research methodology to data analysis and software development.
+            Professional academic consulting across all disciplines, from thesis consultation and
+            research methodology to data analysis and software engineering mentoring.
           </p>
         </div>
       </section>

@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Assignment Help USA | Academic Experts Hub",
     description:
-      "Top-rated assignment help for US students. Thesis, essays, coursework, data analysis — done by experts.",
+      "Top-rated academic tutoring for US students. Thesis consultation, coursework coaching, research methodology & data analysis mentoring — WhatsApp-fast.",
     images: ["/opengraph-image"],
   },
 };
@@ -61,15 +61,15 @@ const faqs = [
   },
   {
     q: "Can you handle urgent US university assignment deadlines?",
-    a: "Yes. We regularly handle tight turnarounds for US students across all time zones, including same-day and 24-hour assignments. Message us on WhatsApp immediately for urgent requests — we'll confirm availability right away.",
+    a: "Yes. We regularly assist US students with tight timelines across all time zones, including same-day and urgent mentoring sessions. Message us on WhatsApp immediately for urgent requests — we'll confirm mentor availability right away.",
   },
   {
     q: "What types of US college assignments do you help with?",
-    a: "Essays, term papers, research papers, case studies, business reports, literature reviews, capstone projects, thesis, dissertations, data analysis assignments, SPSS tasks, coding projects, and more — all subjects, all levels from undergraduate to PhD.",
+    a: "We provide coaching and mentoring on essays, term papers, research papers, case study analysis, business reports, literature reviews, capstone projects, thesis, dissertations, data analysis, SPSS, and coding projects — all subjects, all levels from undergraduate to PhD.",
   },
   {
     q: "Do you help with graduate school thesis and dissertation writing?",
-    a: "Yes. We provide comprehensive Masters and PhD dissertation support for US graduate students — from proposal development and chapter writing to data analysis, defense preparation, and revisions.",
+    a: "Yes. We provide comprehensive Masters and PhD dissertation mentoring for US graduate students — from proposal development and chapter review to data analysis coaching, defense preparation, and revision guidance.",
   },
   {
     q: "How much does assignment help cost for US students?",
@@ -129,7 +129,7 @@ const services = [
 
 export default function AssignmentHelpUSAPage() {
   const whatsappUrl = buildWhatsAppUrl(
-    "Hi, I'm a US student and I need assignment help. Can you tell me more?"
+    "Hi, I'm a US student looking for academic tutoring and consulting. Can you tell me more?"
   );
 
   const breadcrumbs = [
@@ -141,9 +141,9 @@ export default function AssignmentHelpUSAPage() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Assignment Help USA",
+    name: "Academic Tutoring & Consulting USA",
     description:
-      "Expert online assignment help for students at US colleges and universities. Thesis writing, dissertation support, essay help, data analysis, and all academic subjects.",
+      "Expert online academic tutoring and consulting for students at US colleges and universities. Thesis consulting, dissertation mentoring, essay coaching, data analysis support, and all academic subjects.",
     provider: { "@id": `${absoluteUrl("/")}#organization` },
     areaServed: { "@type": "Country", name: "United States" },
     url: absoluteUrl("/assignment-help-usa"),
@@ -231,7 +231,7 @@ export default function AssignmentHelpUSAPage() {
             {[
               { value: "500+", label: "Students Helped" },
               { value: "30+", label: "Countries Served" },
-              { value: "98%", label: "On-Time Delivery" },
+              { value: "98%", label: "Satisfaction Rate" },
               { value: "3+", label: "Years Experience" },
             ].map((s) => (
               <div key={s.label}>
@@ -251,7 +251,7 @@ export default function AssignmentHelpUSAPage() {
               Academic Help Services for US Students
             </h2>
             <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              From freshman essays to doctoral dissertations — expert help at every level.
+              From first-year coursework to doctoral dissertations — expert guidance and mentoring at every level.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
@@ -356,7 +356,7 @@ export default function AssignmentHelpUSAPage() {
               {
                 step: "1",
                 title: "Message Us on WhatsApp",
-                desc: "Send your assignment instructions, subject, word count, deadline, and any grading rubric.",
+                desc: "Tell us about your subject, research area, key academic questions, and timeline — the more detail you share, the more targeted your mentoring session.",
               },
               {
                 step: "2",

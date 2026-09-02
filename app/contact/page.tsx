@@ -14,14 +14,14 @@ import { faqJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Get Thesis & Dissertation Help Now — Contact Us",
   description:
-    "Need thesis writing or dissertation help? Contact Academic Experts Hub via WhatsApp for fast, expert academic support — research methodology, data analysis & more. Worldwide service.",
+    "Need thesis consultation or dissertation mentoring? Contact Academic Experts Hub via WhatsApp for fast, expert academic support — research methodology, data analysis & more. Worldwide service.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
     title: "Get Thesis & Dissertation Help Now | Contact Academic Experts Hub",
     description:
-      "Need thesis writing or dissertation help? Contact Academic Experts Hub via WhatsApp for fast, expert academic support — research methodology, data analysis & more. Worldwide service.",
+      "Need thesis consultation or dissertation mentoring? Contact Academic Experts Hub via WhatsApp for fast, expert academic support — research methodology, data analysis & more. Worldwide service.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {

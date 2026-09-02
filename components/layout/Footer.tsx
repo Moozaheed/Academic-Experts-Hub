@@ -39,7 +39,7 @@ export default function Footer() {
               <Logo />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              Expert academic guidance for international students. From thesis writing to data analysis, we deliver professional-grade support that drives academic success.
+              Expert academic consulting for international students. From thesis consultation to data analysis, we provide professional-grade guidance that drives academic success.
             </p>
             <div className="flex flex-col gap-3">
               <a

@@ -16,7 +16,7 @@ export function organizationJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     description:
-      "Professional academic consulting for international students — thesis and dissertation writing, research methodology, data analysis, literature review, academic writing, and software engineering project support. Serving students in Australia, USA, Canada, UK, UAE, and worldwide.",
+      "Professional academic consulting for international students — thesis consultation, dissertation mentoring, research methodology, data analysis, literature review coaching, and software engineering project mentoring. Serving students in Australia, USA, Canada, UK, UAE, and worldwide.",
     areaServed: [
       { "@type": "Country", name: "Australia" },
       { "@type": "Country", name: "United States" },

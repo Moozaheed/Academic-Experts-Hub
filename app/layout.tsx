@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: "Academic Experts Hub | Professional Academic Consulting",
     description:
-      "Expert guidance for dissertations, thesis, research projects, and academic assignments — delivered by industry professionals.",
+      "Expert guidance for dissertations, thesis, research projects, and academic coursework — from experienced industry professionals and academic consultants.",
     images: [
       {
         url: `${SITE_URL}/opengraph-image`,
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Academic Experts Hub | Professional Academic Consulting",
     description:
-      "Expert guidance for dissertations, thesis, research projects, and academic assignments — delivered by industry professionals.",
+      "Expert guidance for dissertations, thesis, research projects, and academic coursework — from experienced industry professionals and academic consultants.",
     images: [`${SITE_URL}/opengraph-image`],
   },
   verification: {

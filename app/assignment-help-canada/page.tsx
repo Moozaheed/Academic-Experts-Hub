@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: "Can you meet tight Canadian university deadlines?",
-    a: "Yes. We regularly handle urgent turnarounds for Canadian students including same-day and 24-hour assignments. Message us on WhatsApp immediately for urgent requests — we'll confirm availability right away.",
+    a: "Yes. We regularly assist Canadian students with tight timelines, including same-day and urgent mentoring sessions. Message us on WhatsApp immediately for urgent requests — we'll confirm mentor availability right away.",
   },
   {
     q: "Do you work with both English and bilingual Canadian institutions?",
@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: "What types of assignments do you help with in Canada?",
-    a: "Essays, term papers, coursework, case studies, business reports, literature reviews, capstone projects, thesis, dissertations, data analysis assignments, SPSS/R tasks, and engineering or IT projects — all subjects, all levels from undergraduate to PhD.",
+    a: "We provide coaching and mentoring on essays, term papers, coursework, case study analysis, business reports, literature reviews, capstone projects, thesis, dissertations, data analysis, SPSS/R, and engineering or IT projects — all subjects, all levels from undergraduate to PhD.",
   },
   {
     q: "How much does assignment help cost for Canadian students?",
@@ -129,7 +129,7 @@ const services = [
 
 export default function AssignmentHelpCanadaPage() {
   const whatsappUrl = buildWhatsAppUrl(
-    "Hi, I'm a Canadian student and I need assignment help. Can you tell me more?"
+    "Hi, I'm a Canadian student looking for academic tutoring and consulting. Can you tell me more?"
   );
 
   const breadcrumbs = [
@@ -141,9 +141,9 @@ export default function AssignmentHelpCanadaPage() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Assignment Help Canada",
+    name: "Academic Tutoring & Consulting Canada",
     description:
-      "Expert online assignment help for students at Canadian universities. Thesis writing, dissertation support, essay help, data analysis, and all academic subjects.",
+      "Expert online academic tutoring and consulting for students at Canadian universities. Thesis consulting, dissertation mentoring, essay coaching, data analysis support, and all academic subjects.",
     provider: { "@id": `${absoluteUrl("/")}#organization` },
     areaServed: { "@type": "Country", name: "Canada" },
     url: absoluteUrl("/assignment-help-canada"),
@@ -231,7 +231,7 @@ export default function AssignmentHelpCanadaPage() {
             {[
               { value: "500+", label: "Students Helped" },
               { value: "30+", label: "Countries Served" },
-              { value: "98%", label: "On-Time Delivery" },
+              { value: "98%", label: "Satisfaction Rate" },
               { value: "3+", label: "Years Experience" },
             ].map((s) => (
               <div key={s.label}>
@@ -356,7 +356,7 @@ export default function AssignmentHelpCanadaPage() {
               {
                 step: "1",
                 title: "Message Us on WhatsApp",
-                desc: "Send your assignment instructions, subject, word count, deadline, and any grading criteria.",
+                desc: "Tell us about your subject, research area, key academic questions, and timeline — the more detail you share, the more targeted your mentoring session.",
               },
               {
                 step: "2",
@@ -365,7 +365,7 @@ export default function AssignmentHelpCanadaPage() {
               },
               {
                 step: "3",
-                title: "Receive Your Work",
+                title: "Receive Expert Mentoring",
                 desc: "Get detailed academic feedback, step-by-step coaching, and worked examples so you fully understand the material and submit confident, original work by your deadline.",
               },
             ].map((s) => (
